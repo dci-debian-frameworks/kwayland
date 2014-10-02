@@ -1,0 +1,46 @@
+Source: kwayland
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               pkg-kde-tools,
+               extra-cmake-modules (>= 1.2.0),
+               libwayland-dev,
+               qtbase5-dev,
+Standards-Version: 3.9.5
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/workspace/kwayland
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kwayland.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwayland.git
+
+Package: kwayland-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5waylandclient5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kwayland
+ KWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+ .
+ Contains development files for kwayland.
+
+Package: libkf5waylandclient5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt library wrapper for Wayland libraries
+ KWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+
+Package: kwayland-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: same
+Depends: libkf5waylandclient5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt library wrapper for Wayland libraries
+ KWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+ .
+ Contains debug symbols for kwayland.
