@@ -5,11 +5,11 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               pkg-kde-tools,
                extra-cmake-modules (>= 1.2.0),
                libwayland-dev,
-               qtbase5-dev,
                pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kwayland
