@@ -6,6 +6,7 @@ Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.2.0),
                libwayland-dev,
+               libegl1-mesa-dev,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev
