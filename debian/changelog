@@ -1,5 +1,5 @@
-kwayland (5.0.95-0ubuntu1) UNRELEASED; urgency=medium
+kwayland (5.1.1-0ubuntu1) vivid; urgency=medium
 
-  * Initial upstream beta release
+  * Initial upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Sep 2014 17:45:01 +0200
