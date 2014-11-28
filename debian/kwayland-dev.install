@@ -2,3 +2,4 @@ usr/include/KF5/KWayland/
 usr/include/KF5/kwayland_version.h
 usr/lib/*/cmake/KF5Wayland/
 usr/lib/*/libKF5WaylandClient.so
+usr/lib/*/libKF5WaylandServer.so

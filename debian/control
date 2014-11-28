@@ -31,7 +31,15 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt library wrapper for Wayland libraries
- KWayland provides a Qt-style Client and Server library wrapper for
+ KWayland provides a Qt-style Client library wrapper for
+ the Wayland libraries.
+ 
+Package: libkf5waylandserver5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt library wrapper for Wayland libraries
+ KWayland provides a Qt-style Server library wrapper for
  the Wayland libraries.
 
 Package: kwayland-dbg
