@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141128.0837 amd64 i386
+# SymbolsHelper-Confirmed: 5.1.1+git20141128.0849 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
@@ -272,14 +272,14 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6Buffer7Private10s_listenerE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7Private16releasedCallbackEPvP9wl_buffer@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7Private7destroyEv@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Buffer7PrivateC1EPS1_PNS0_7ShmPoolEP9wl_bufferRK5QSizeimNS1_6FormatE@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Buffer7PrivateC2EPS1_PNS0_7ShmPoolEP9wl_bufferRK5QSizeimNS1_6FormatE@Base 5.1.1+git20141128.0009
+ (subst)_ZN8KWayland6Client6Buffer7PrivateC1EPS1_PNS0_7ShmPoolEP9wl_bufferRK5QSizei{size_t}NS1_6FormatE@Base 5.1.1+git20141128.0009
+ (subst)_ZN8KWayland6Client6Buffer7PrivateC2EPS1_PNS0_7ShmPoolEP9wl_bufferRK5QSizei{size_t}NS1_6FormatE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7PrivateD1Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7addressEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7setUsedEb@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6BufferC1EPNS0_7ShmPoolEP9wl_bufferRK5QSizeimNS1_6FormatE@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6BufferC2EPNS0_7ShmPoolEP9wl_bufferRK5QSizeimNS1_6FormatE@Base 5.1.1+git20141128.0009
+ (subst)_ZN8KWayland6Client6BufferC1EPNS0_7ShmPoolEP9wl_bufferRK5QSizei{size_t}NS1_6FormatE@Base 5.1.1+git20141128.0009
+ (subst)_ZN8KWayland6Client6BufferC2EPNS0_7ShmPoolEP9wl_bufferRK5QSizei{size_t}NS1_6FormatE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6BufferD1Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6BufferD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6BuffercvP9wl_bufferEv@Base 5.1.1+git20141128.0009

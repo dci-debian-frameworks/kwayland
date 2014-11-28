@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141128.0009 amd64
+# SymbolsHelper-Confirmed: 5.1.1+git20141128.0849 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
- _ZN10QByteArray7reserveEi@Base 5.1.1+git20141128.0009
- _ZN6QDebug6StreamD1Ev@Base 5.1.1+git20141128.0009
- _ZN6QDebug6StreamD2Ev@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN7QObject7connectIM6QTimerFvNS1_14QPrivateSignalEEMN8KWayland6Server21ShellSurfaceInterfaceEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 5.1.1+git20141128.0009
+ (arch=i386)_ZN10QByteArray7reserveEi@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN6QDebug6StreamD1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN6QDebug6StreamD2Ev@Base 5.1.1+git20141128.0849
+ (optional=templinst|arch=i386)_ZN7QObject7connectIM6QTimerFvNS1_14QPrivateSignalEEMN8KWayland6Server21ShellSurfaceInterfaceEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11nameChangedERK7QString@Base 5.1.1+git20141128.0009
@@ -46,28 +46,28 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface7Private4bindEP9wl_clientjj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7Private4castEP11wl_resource@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7Private6unbindEP11wl_resource@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusD2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusaSEOS4_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7PointerC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7PointerC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7PointerD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private7PointerD2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusD2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusaSEOS4_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard6KeymapC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard6KeymapC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard9ModifiersC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8Keyboard9ModifiersC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8KeyboardC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8KeyboardC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8KeyboardD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server13SeatInterface7Private8KeyboardD2Ev@Base 5.1.1+git20141128.0009
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusC1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusC2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusD1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusD2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7Pointer5FocusaSEOS4_@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7PointerC1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7PointerC2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7PointerD1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private7PointerD2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusC1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusC2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusD1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusD2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard5FocusaSEOS4_@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard6KeymapC1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard6KeymapC2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard9ModifiersC1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8Keyboard9ModifiersC2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8KeyboardC1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8KeyboardC2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8KeyboardD1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server13SeatInterface7Private8KeyboardD2Ev@Base 5.1.1+git20141128.0849
  _ZN8KWayland6Server13SeatInterface7Private8sendNameEP11wl_resource@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7Private9updateKeyEjNS2_8Keyboard5StateE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 5.1.1+git20141128.0009
@@ -253,12 +253,12 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16SurfaceInterface7Private20destroyFrameCallbackEP11wl_resource@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private20opaqueRegionCallbackEP9wl_clientP11wl_resourceS6_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private23bufferTransformCallbackEP9wl_clientP11wl_resourcei@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server16SurfaceInterface7Private5StateC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server16SurfaceInterface7Private5StateC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server16SurfaceInterface7Private5StateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server16SurfaceInterface7Private5StateD2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server16SurfaceInterface7Private5StateaSEOS3_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server16SurfaceInterface7Private5StateaSERKS3_@Base 5.1.1+git20141128.0009
+ (arch=i386)_ZN8KWayland6Server16SurfaceInterface7Private5StateC1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server16SurfaceInterface7Private5StateC2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server16SurfaceInterface7Private5StateD1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server16SurfaceInterface7Private5StateD2Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server16SurfaceInterface7Private5StateaSEOS3_@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server16SurfaceInterface7Private5StateaSERKS3_@Base 5.1.1+git20141128.0849
  _ZN8KWayland6Server16SurfaceInterface7Private6commitEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private6damageERK5QRect@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private7destroyEv@Base 5.1.1+git20141128.0009
@@ -546,8 +546,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server7Display7Private5flushEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server7Display7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server7Display7PrivateD2Ev@Base 5.1.1+git20141128.0009
+ (arch=i386)_ZN8KWayland6Server7Display7PrivateD1Ev@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN8KWayland6Server7Display7PrivateD2Ev@Base 5.1.1+git20141128.0849
  _ZN8KWayland6Server7Display9createShmEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display9startLoopEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display9terminateEv@Base 5.1.1+git20141128.0009
@@ -564,17 +564,17 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server8Resource6createEPNS0_16ClientConnectionEjj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource6globalEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7Private14s_allResourcesE@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private3getINS0_15RegionInterfaceEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private3getINS0_16SurfaceInterfaceEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private3getINS0_19DataSourceInterfaceEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castINS0_15RegionInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castINS0_16SurfaceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castINS0_18DataOfferInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castINS0_19DataDeviceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castINS0_19DataSourceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castINS0_19SubSurfaceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castINS0_21ShellSurfaceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN8KWayland6Server8Resource7Private4castIS2_EEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private3getINS0_15RegionInterfaceEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private3getINS0_16SurfaceInterfaceEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private3getINS0_19DataSourceInterfaceEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castINS0_15RegionInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castINS0_16SurfaceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castINS0_18DataOfferInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castINS0_19DataDeviceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castINS0_19DataSourceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castINS0_19SubSurfaceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castINS0_21ShellSurfaceInterface7PrivateEEEPT_P11wl_resource@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZN8KWayland6Server8Resource7Private4castIS2_EEPT_P11wl_resource@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7Private6createEPNS0_16ClientConnectionEjj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7Private6unbindEP11wl_resource@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7PrivateC1EPS1_PNS0_6GlobalEP11wl_resourcePK12wl_interfacePKv@Base 5.1.1+git20141128.0009
@@ -588,8 +588,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server8ResourceD0Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server8ResourceD1Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server8ResourceD2Ev@Base 5.1.1+git20141128.0009
- _ZN9QHashData8willGrowEv@Base 5.1.1+git20141128.0009
- _ZN9QHashData9firstNodeEv@Base 5.1.1+git20141128.0009
+ (arch=i386)_ZN9QHashData8willGrowEv@Base 5.1.1+git20141128.0849
+ (arch=i386)_ZN9QHashData9firstNodeEv@Base 5.1.1+git20141128.0849
  _ZNK8KWayland6Server13SeatInterface10hasPointerEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface10keymapSizeEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface10metaObjectEv@Base 5.1.1+git20141128.0009
@@ -701,16 +701,16 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server7DisplaycvP10wl_displayEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server8Resource10metaObjectEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server8Resource14parentResourceEv@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNKSt16initializer_listISt4pairIN2Qt11MouseButtonEjEE3endEv@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNKSt16initializer_listISt4pairIN2Qt11MouseButtonEjEE4sizeEv@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNKSt16initializer_listISt4pairIN2Qt11MouseButtonEjEE5beginEv@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4moveI6QImageEONSt16remove_referenceIT_E4typeEOS2_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4moveIRPN7QRegion11QRegionDataEEONSt16remove_referenceIT_E4typeEOS5_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4moveIRPvEONSt16remove_referenceIT_E4typeEOS3_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4swapIPN7QRegion11QRegionDataEEvRT_S4_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4swapIPvEvRT_S2_@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZNKSt16initializer_listISt4pairIN2Qt11MouseButtonEjEE3endEv@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZNKSt16initializer_listISt4pairIN2Qt11MouseButtonEjEE4sizeEv@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZNKSt16initializer_listISt4pairIN2Qt11MouseButtonEjEE5beginEv@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZSt4moveI6QImageEONSt16remove_referenceIT_E4typeEOS2_@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZSt4moveIRPN7QRegion11QRegionDataEEONSt16remove_referenceIT_E4typeEOS5_@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZSt4moveIRPvEONSt16remove_referenceIT_E4typeEOS3_@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZSt4swapIPN7QRegion11QRegionDataEEvRT_S4_@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 5.1.1+git20141128.0009
+ (optional=templinst|arch=i386)_ZSt4swapIPvEvRT_S2_@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Server13SeatInterface7PrivateE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Server13SeatInterfaceE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Server14ShellInterface7PrivateE@Base 5.1.1+git20141128.0009
