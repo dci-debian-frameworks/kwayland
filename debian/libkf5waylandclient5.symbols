@@ -1,11 +1,5 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141128.0009 amd64
+# SymbolsHelper-Confirmed: 5.1.1+git20141128.0837 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
- _ZN6QDebug6StreamD1Ev@Base 5.1.1+git20141128.0009
- _ZN6QDebug6StreamD2Ev@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN7QObject7connectIMN8KWayland6Client16ConnectionThreadEFvvEMNS2_10EventQueueEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN7QObject7connectIMN8KWayland6Client4SeatEFvvEMNS2_7PointerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN7QObject7connectIMN8KWayland6Client4SeatEFvvEMNS2_8KeyboardEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZN7QObject7connectIMN8KWayland6Client5ShellEFvvEMNS2_12ShellSurfaceEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacastEPKc@Base 5.1.1+git20141128.0009
@@ -16,8 +10,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor13setEventQueueEPNS0_10EventQueueE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor16staticMetaObjectE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor5setupEP13wl_compositor@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10Compositor7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10Compositor7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10CompositorC1EP7QObject@Base 5.1.1+git20141128.0009
@@ -47,8 +39,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10DataDevice7Private9selectionEP13wl_data_offer@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10DataDevice7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10DataDevice7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice9startDragEjPNS0_10DataSourceEPNS0_7SurfaceES5_@Base 5.1.1+git20141128.0009
@@ -73,8 +63,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10DataSource7Private5setupEP14wl_data_source@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10DataSource7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10DataSource7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource9cancelledEv@Base 5.1.1+git20141128.0009
@@ -91,8 +79,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10EventQueue5setupEPNS0_16ConnectionThreadE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10EventQueue7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10EventQueue7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10EventQueue7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10EventQueue7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10EventQueue7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10EventQueue7isValidEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10EventQueue7releaseEv@Base 5.1.1+git20141128.0009
@@ -120,8 +106,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10SubSurface7Private5setupEP13wl_subsurface@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10SubSurface7PrivateC1E8QPointerINS0_7SurfaceEES5_PS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10SubSurface7PrivateC2E8QPointerINS0_7SurfaceEES5_PS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10SubSurface7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client10SubSurface7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10SubSurface7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10SubSurface7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10SubSurface7setModeENS1_4ModeE@Base 5.1.1+git20141128.0009
@@ -146,8 +130,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12ShellSurface7Private5setupEP16wl_shell_surface@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client12ShellSurface7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client12ShellSurface7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface7setSizeERK5QSize@Base 5.1.1+git20141128.0009
@@ -164,10 +146,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client13SubCompositor16createSubSurfaceE8QPointerINS0_7SurfaceEES4_P7QObject@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client13SubCompositor16staticMetaObjectE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client13SubCompositor5setupEP16wl_subcompositor@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client13SubCompositor7PrivateC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client13SubCompositor7PrivateC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client13SubCompositor7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client13SubCompositor7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client13SubCompositor7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client13SubCompositor7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client13SubCompositorC1EP7QObject@Base 5.1.1+git20141128.0009
@@ -188,8 +166,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client15FullscreenShell7Private5setupEP20_wl_fullscreen_shell@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client15FullscreenShell7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client15FullscreenShell7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client15FullscreenShell7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client15FullscreenShell7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client15FullscreenShell7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client15FullscreenShell7presentEP10wl_surfaceP9wl_output@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client15FullscreenShell7presentEPNS0_7SurfaceEPNS0_6OutputE@Base 5.1.1+git20141128.0009
@@ -231,10 +207,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client17DataDeviceManager16createDataSourceEP7QObject@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager16staticMetaObjectE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager5setupEP22wl_data_device_manager@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client17DataDeviceManager7PrivateC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client17DataDeviceManager7PrivateC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client17DataDeviceManager7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client17DataDeviceManager7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManagerC1EP7QObject@Base 5.1.1+git20141128.0009
@@ -269,8 +241,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client4Seat7Private9resetSeatEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4Seat7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4Seat7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client4Seat7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client4Seat7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4Seat7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4Seat7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4SeatC1EP7QObject@Base 5.1.1+git20141128.0009
@@ -289,10 +259,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client5Shell26interfaceAboutToBeReleasedEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client5Shell27interfaceAboutToBeDestroyedEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client5Shell5setupEP8wl_shell@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client5Shell7PrivateC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client5Shell7PrivateC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client5Shell7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client5Shell7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client5Shell7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client5Shell7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client5ShellC1EP7QObject@Base 5.1.1+git20141128.0009
@@ -321,12 +287,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6Output11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output11qt_metacastEPKc@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output16staticMetaObjectE@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output4ModeC1ERKS2_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output4ModeC1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output4ModeC2ERKS2_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output4ModeC2Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output4ModeD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output4ModeD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output5setupEP9wl_output@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output6outputEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private11setSubPixelENS1_8SubPixelE@Base 5.1.1+git20141128.0009
@@ -345,8 +305,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6Output7Private8setScaleEi@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Output7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7changedEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output9modeAddedERKNS1_4ModeE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6OutputC1EP7QObject@Base 5.1.1+git20141128.0009
@@ -367,8 +325,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6Region7Private15uninstallRegionERK7QRegion@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Region7PrivateC1ERK7QRegion@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Region7PrivateC2ERK7QRegion@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Region7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client6Region7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Region7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Region7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Region8subtractERK5QRect@Base 5.1.1+git20141128.0009
@@ -399,8 +355,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7Pointer7Private5setupEP10wl_pointer@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client7Pointer7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client7Pointer7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7enteredEjRK7QPointF@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7releaseEv@Base 5.1.1+git20141128.0009
@@ -425,8 +379,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7ShmPool7Private9getBufferERK5QSizeiNS0_6Buffer6FormatE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7ShmPool7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7ShmPool7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client7ShmPool7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client7ShmPool7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7ShmPool7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7ShmPool7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7ShmPool9getBufferERK5QSizeiNS0_6Buffer6FormatE@Base 5.1.1+git20141128.0009
@@ -459,8 +411,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7Surface7Private19handleFrameCallbackEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client7Surface7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client7Surface7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7setSizeERK5QSize@Base 5.1.1+git20141128.0009
@@ -486,8 +436,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Keyboard7Private5setupEP11wl_keyboard@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client8Keyboard7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client8Keyboard7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8KeyboardC1EP7QObject@Base 5.1.1+git20141128.0009
@@ -542,8 +490,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry7Private5setupEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client8Registry7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client8Registry7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry8registryEv@Base 5.1.1+git20141128.0009
@@ -562,8 +508,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client9DataOffer7Private5offerERK7QString@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer7PrivateC1EP13wl_data_offerPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer7PrivateC2EP13wl_data_offerPS1_@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client9DataOffer7PrivateD1Ev@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Client9DataOffer7PrivateD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer7receiveERK7QStringi@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer7receiveERK9QMimeTypei@Base 5.1.1+git20141128.0009
@@ -574,7 +518,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client9DataOfferD1Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOfferD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffercvP13wl_data_offerEv@Base 5.1.1+git20141128.0009
- _ZNK10QByteArray4dataEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client10Compositor10metaObjectEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client10Compositor7isValidEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client10CompositorcvP13wl_compositorEv@Base 5.1.1+git20141128.0009
@@ -685,32 +628,6 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client9DataOffer16offeredMimeTypesEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client9DataOffer7isValidEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client9DataOffercvP13wl_data_offerEv@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt10_Head_baseILm0EPN8KWayland6Client6RegionELb0EEC1IRS3_vEEOT_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt10_Head_baseILm0EPN8KWayland6Client6RegionELb0EEC2IRS3_vEEOT_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt10_Head_baseILm1ESt14default_deleteIN8KWayland6Client6RegionEELb1EEC1IS4_vEEOT_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt10_Head_baseILm1ESt14default_deleteIN8KWayland6Client6RegionEELb1EEC2IS4_vEEOT_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt10unique_ptrIN8KWayland6Client6RegionESt14default_deleteIS2_EEC1EPS2_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt10unique_ptrIN8KWayland6Client6RegionESt14default_deleteIS2_EEC2EPS2_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm0EIPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC1IRS3_IS5_EvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm0EIPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC2IRS3_IS5_EvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm0EJPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC1IRS3_JS5_EvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm0EJPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC2IRS3_JS5_EvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm1EISt14default_deleteIN8KWayland6Client6RegionEEEEC1IS4_IEvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm1EISt14default_deleteIN8KWayland6Client6RegionEEEEC2IS4_IEvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm1EJSt14default_deleteIN8KWayland6Client6RegionEEEEC1IS4_JEvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt11_Tuple_implILm1EJSt14default_deleteIN8KWayland6Client6RegionEEEEC2IS4_JEvEEOT_DpOT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt5tupleIIPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC1IRS3_S5_vEEOT_OT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt5tupleIIPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC2IRS3_S5_vEEOT_OT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt5tupleIJPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC1IRS3_S5_vEEOT_OT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZNSt5tupleIJPN8KWayland6Client6RegionESt14default_deleteIS2_EEEC2IRS3_S5_vEEOT_OT0_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4moveIRPN7QRegion11QRegionDataEEONSt16remove_referenceIT_E4typeEOS5_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4moveIRPN8KWayland6Client6BufferEEONSt16remove_referenceIT_E4typeEOS6_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4swapIPN7QRegion11QRegionDataEEvRT_S4_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4swapIPN8KWayland6Client6BufferEEvRT_S5_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt7forwardIRPN8KWayland6Client6RegionEEOT_RNSt16remove_referenceIS5_E4typeE@Base 5.1.1+git20141128.0009
- (optional=templinst)_ZSt7forwardISt14default_deleteIN8KWayland6Client6RegionEEEOT_RNSt16remove_referenceIS5_E4typeE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client10CompositorE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client10DataDeviceE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client10DataSourceE@Base 5.1.1+git20141128.0009
