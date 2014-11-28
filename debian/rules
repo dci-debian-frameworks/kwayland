@@ -6,6 +6,4 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 override_dh_strip:
 	$(overridden_command) --dbg-package=kwayland-dbg
 
-# will be run by autopkgtest
-override_dh_auto_test:
-	true
+.PHONY: override_dh_auto_test
