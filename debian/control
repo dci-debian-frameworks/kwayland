@@ -19,7 +19,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwayland.git
 Package: kwayland-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5waylandclient5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5waylandclient5 (= ${binary:Version}),
+         libkf5waylandserver5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: development files for kwayland
  KWayland provides a Qt-style Client and Server library wrapper for
  the Wayland libraries.
