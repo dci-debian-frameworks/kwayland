@@ -5,8 +5,8 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.2.0),
-               libwayland-dev,
                libegl1-mesa-dev,
+               libwayland-dev,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev
@@ -33,7 +33,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt library wrapper for Wayland libraries
  KWayland provides a Qt-style Client library wrapper for
  the Wayland libraries.
- 
+
 Package: libkf5waylandserver5
 Architecture: any
 Multi-Arch: same
