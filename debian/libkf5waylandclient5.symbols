@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141128.0849 amd64 i386
+# SymbolsHelper-Confirmed: 5.1.1+git20141209.0010+15.04 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
@@ -424,8 +424,10 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Keyboard11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard11qt_metacastEPKc@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard13keymapChangedEij@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Keyboard14enteredSurfaceEv@Base 5.1.1+git20141209.0010+15.04
  _ZN8KWayland6Client8Keyboard16modifiersChangedEjjjj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard16staticMetaObjectE@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Keyboard4leftEj@Base 5.1.1+git20141209.0010+15.04
  _ZN8KWayland6Client8Keyboard5setupEP11wl_keyboard@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7Private10s_listenerE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7Private11keyCallbackEPvP11wl_keyboardjjjj@Base 5.1.1+git20141128.0009
@@ -433,10 +435,13 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Keyboard7Private13leaveCallbackEPvP11wl_keyboardjP10wl_surface@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7Private14keymapCallbackEPvP11wl_keyboardjij@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7Private17modifiersCallbackEPvP11wl_keyboardjjjjj@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Keyboard7Private5enterEjP10wl_surfaceP8wl_array@Base 5.1.1+git20141209.0010+15.04
+ _ZN8KWayland6Client8Keyboard7Private5leaveEj@Base 5.1.1+git20141209.0010+15.04
  _ZN8KWayland6Client8Keyboard7Private5setupEP11wl_keyboard@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7PrivateC1EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7PrivateC2EPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8Keyboard7destroyEv@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Keyboard7enteredEj@Base 5.1.1+git20141209.0010+15.04
  _ZN8KWayland6Client8Keyboard7releaseEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8KeyboardC1EP7QObject@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client8KeyboardC2EP7QObject@Base 5.1.1+git20141128.0009
@@ -601,6 +606,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client7Surface7isValidEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client7SurfacecvP10wl_surfaceEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Keyboard10metaObjectEv@Base 5.1.1+git20141128.0009
+ _ZNK8KWayland6Client8Keyboard14enteredSurfaceEv@Base 5.1.1+git20141209.0010+15.04
  _ZNK8KWayland6Client8Keyboard7isValidEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client8KeyboardcvP11wl_keyboardEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Registry10bindOutputEjj@Base 5.1.1+git20141128.0009
