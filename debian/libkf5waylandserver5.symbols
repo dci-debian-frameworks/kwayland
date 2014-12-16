@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141128.0859 amd64 i386
+# SymbolsHelper-Confirmed: 5.1.1+git20141216.0026+15.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 5.1.1+git20141128.0009
@@ -395,6 +395,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21ShellSurfaceInterface12titleChangedERK7QString@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface14setPingTimeoutEj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface15toplevelChangedEb@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Server21ShellSurfaceInterface16maximizedChangedEb@Base 5.1.1+git20141216.0026+15.04
  _ZN8KWayland6Server21ShellSurfaceInterface16staticMetaObjectE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface17fullscreenChangedEb@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface18windowClassChangedERK10QByteArray@Base 5.1.1+git20141128.0009
@@ -403,6 +404,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21ShellSurfaceInterface7Private11setToplevelEb@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private12moveCallbackEP9wl_clientP11wl_resourceS6_j@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private12pongCallbackEP9wl_clientP11wl_resourcej@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Server21ShellSurfaceInterface7Private12setMaximizedEb@Base 5.1.1+git20141216.0026+15.04
  _ZN8KWayland6Server21ShellSurfaceInterface7Private13setFullscreenEb@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private14resizeCallbackEP9wl_clientP11wl_resourceS6_jj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private14setWindowClassERK10QByteArray@Base 5.1.1+git20141128.0009
@@ -634,6 +636,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server19SubSurfaceInterface8positionEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server21ShellSurfaceInterface10isToplevelEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server21ShellSurfaceInterface10metaObjectEv@Base 5.1.1+git20141128.0009
+ _ZNK8KWayland6Server21ShellSurfaceInterface11isMaximizedEv@Base 5.1.1+git20141216.0026+15.04
  _ZNK8KWayland6Server21ShellSurfaceInterface11windowClassEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server21ShellSurfaceInterface12isFullscreenEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server21ShellSurfaceInterface5shellEv@Base 5.1.1+git20141128.0009
