@@ -1,3 +1,9 @@
+kwayland (5.1.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Jan 2015 19:29:06 +0100
+
 kwayland (5.1.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
