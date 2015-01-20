@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141216.0026+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.1.95+git20150120.0007+15.04 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
@@ -117,6 +117,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10SubSurfacecvP13wl_subsurfaceEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface11qt_metacastEPKc@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client12ShellSurface11setToplevelEv@Base 5.1.95+git20150120.0007+15.04
  _ZN8KWayland6Client12ShellSurface11sizeChangedERK5QSize@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface12setMaximizedEPNS0_6OutputE@Base 5.1.1+git20141216.0026+15.04
  _ZN8KWayland6Client12ShellSurface13setFullscreenEPNS0_6OutputE@Base 5.1.1+git20141128.0009
