@@ -14,7 +14,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kwayland
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kwayland.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kwayland.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwayland.git
 
 Package: kwayland-dev
@@ -46,8 +46,8 @@ Description: Qt library wrapper for Wayland libraries
  the Wayland libraries.
 
 Package: kwayland-dbg
-Priority: extra
 Section: debug
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: libkf5waylandclient5 (= ${binary:Version}), ${misc:Depends}
