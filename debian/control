@@ -22,6 +22,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5waylandclient5 (= ${binary:Version}),
          libkf5waylandserver5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.3.0),
          ${misc:Depends}
 Description: development files for kwayland
  KWayland provides a Qt-style Client and Server library wrapper for
