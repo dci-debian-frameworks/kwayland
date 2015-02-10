@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141216.0026+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.2.0+git20150210.2224+15.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 5.1.1+git20141128.0009
@@ -209,6 +209,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16SurfaceInterface16staticMetaObjectE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface16transformChangedENS0_15OutputInterface9TransformE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface3getEP11wl_resource@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Server16SurfaceInterface3getEj@Base 5.2.0+git20150210.2224+15.04
  _ZN8KWayland6Server16SurfaceInterface6bufferEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private10lowerChildE8QPointerINS0_19SubSurfaceInterfaceEEPS1_@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private10raiseChildE8QPointerINS0_19SubSurfaceInterfaceEEPS1_@Base 5.1.1+git20141128.0009
@@ -657,6 +658,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server7DisplaycvP10wl_displayEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server8Resource10metaObjectEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Server8Resource14parentResourceEv@Base 5.1.1+git20141128.0009
+ _ZNK8KWayland6Server8Resource2idEv@Base 5.2.0+git20150210.2224+15.04
  _ZTIN8KWayland6Server13SeatInterface7PrivateE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Server13SeatInterfaceE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Server14ShellInterface7PrivateE@Base 5.1.1+git20141128.0009
