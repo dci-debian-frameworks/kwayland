@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0+git20150210.2224+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.0+git20150217 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 5.1.1+git20141128.0009
@@ -402,11 +402,9 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21ShellSurfaceInterface18windowClassChangedERK10QByteArray@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface4pingEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private11s_interfaceE@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server21ShellSurfaceInterface7Private11setToplevelEb@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private12moveCallbackEP9wl_clientP11wl_resourceS6_j@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private12pongCallbackEP9wl_clientP11wl_resourcej@Base 5.1.1+git20141128.0009
- _ZN8KWayland6Server21ShellSurfaceInterface7Private12setMaximizedEb@Base 5.1.1+git20141216.0026+15.04
- _ZN8KWayland6Server21ShellSurfaceInterface7Private13setFullscreenEb@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Server21ShellSurfaceInterface7Private13setWindowModeENS2_10WindowModeE@Base 4:5.2.0+git20150217
  _ZN8KWayland6Server21ShellSurfaceInterface7Private14resizeCallbackEP9wl_clientP11wl_resourceS6_jj@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private14setWindowClassERK10QByteArray@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7Private15setPopupCalbackEP9wl_clientP11wl_resourceS6_jS6_iij@Base 5.1.1+git20141128.0009
