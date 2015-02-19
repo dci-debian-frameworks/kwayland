@@ -9,7 +9,8 @@ Build-Depends: cmake,
                libwayland-dev,
                pkg-config,
                pkg-kde-tools,
-               qtbase5-dev
+               qtbase5-dev,
+               qtbase5-private-dev
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kwayland
