@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.0+git20150217 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.1+git20150225.0737+15.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 4:5.1.1+git20141128.0009
@@ -578,6 +578,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server15BufferInterface12isReferencedEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15BufferInterface7Private6formatEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15BufferInterface7surfaceEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server15BufferInterface8resourceEv@Base 4:5.2.1+git20150225.0737+15.04
  _ZNK8KWayland6Server15OutputInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15OutputInterface11refreshRateEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15OutputInterface12manufacturerEv@Base 4:5.1.1+git20141128.0009
