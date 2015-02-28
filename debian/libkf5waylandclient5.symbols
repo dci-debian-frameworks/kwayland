@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.1.95+git20150120.0007+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.1+git20150228.0043+15.04 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -337,6 +337,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6RegionD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6RegionD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6RegioncvP9wl_regionEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Pointer10hideCursorEv@Base 4:5.2.1+git20150228.0043+15.04
  _ZN8KWayland6Client7Pointer11axisChangedEjNS1_4AxisEd@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
@@ -360,6 +361,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7Pointer7destroyEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7enteredEjRK7QPointF@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7releaseEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Pointer9setCursorEPNS0_7SurfaceERK6QPoint@Base 4:5.2.1+git20150228.0043+15.04
  _ZN8KWayland6Client7PointerC1EP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7PointerC2EP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7PointerD0Ev@Base 4:5.1.1+git20141128.0009

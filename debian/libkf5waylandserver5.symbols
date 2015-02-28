@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.1+git20150225.0737+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.1+git20150228.0043+15.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 4:5.1.1+git20141128.0009
@@ -183,6 +183,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16PointerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface13buttonPressedEjj@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server16PointerInterface13cursorChangedEv@Base 4:5.2.1+git20150228.0043+15.04
  _ZN8KWayland6Server16PointerInterface14buttonReleasedEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface17setFocusedSurfaceEPNS0_16SurfaceInterfaceEj@Base 4:5.1.1+git20141128.0009
@@ -190,6 +191,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16PointerInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7Private17setCursorCallbackEP9wl_clientP11wl_resourcejS6_ii@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server16PointerInterface7Private9setCursorEjPNS0_16SurfaceInterfaceERK6QPoint@Base 4:5.2.1+git20150228.0043+15.04
  _ZN8KWayland6Server16PointerInterface7PrivateC1EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7PrivateC2EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
@@ -469,6 +471,21 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server26DataDeviceManagerInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterfaceD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterfaceD2Ev@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server6Cursor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor11qt_metacastEPKc@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor14hotspotChangedEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor14surfaceChangedEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor16staticMetaObjectE@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor20enteredSerialChangedEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor7Private6updateERK8QPointerINS0_16SurfaceInterfaceEEjRK6QPoint@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor7PrivateC1EPS1_PNS0_16PointerInterfaceE@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor7PrivateC2EPS1_PNS0_16PointerInterfaceE@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6Cursor7changedEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6CursorC1EPNS0_16PointerInterfaceE@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6CursorC2EPNS0_16PointerInterfaceE@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6CursorD0Ev@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6CursorD1Ev@Base 4:5.2.1+git20150228.0043+15.04
+ _ZN8KWayland6Server6CursorD2Ev@Base 4:5.2.1+git20150228.0043+15.04
  _ZN8KWayland6Server6Global11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server6Global11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server6Global16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
@@ -602,6 +619,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server16ClientConnection9processIdEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16ClientConnectioncvP9wl_clientEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16PointerInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server16PointerInterface6cursorEv@Base 4:5.2.1+git20150228.0043+15.04
  _ZNK8KWayland6Server16PointerInterface6d_funcEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface10subSurfaceEv@Base 4:5.1.1+git20141128.0009
@@ -646,6 +664,11 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server21ShellSurfaceInterface8isPingedEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server22SubCompositorInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server26DataDeviceManagerInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server6Cursor10metaObjectEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZNK8KWayland6Server6Cursor13enteredSerialEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZNK8KWayland6Server6Cursor7hotspotEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZNK8KWayland6Server6Cursor7pointerEv@Base 4:5.2.1+git20150228.0043+15.04
+ _ZNK8KWayland6Server6Cursor7surfaceEv@Base 4:5.2.1+git20150228.0043+15.04
  _ZNK8KWayland6Server6Global10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server6Global7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server6GlobalcvP9wl_globalEv@Base 4:5.1.1+git20141128.0009
@@ -690,6 +713,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTIN8KWayland6Server22SubCompositorInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server26DataDeviceManagerInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server26DataDeviceManagerInterfaceE@Base 4:5.1.1+git20141128.0009
+ _ZTIN8KWayland6Server6CursorE@Base 4:5.2.1+git20150228.0043+15.04
  _ZTIN8KWayland6Server6Global7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server6GlobalE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server7DisplayE@Base 4:5.1.1+git20141128.0009
@@ -727,6 +751,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTSN8KWayland6Server22SubCompositorInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server26DataDeviceManagerInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server26DataDeviceManagerInterfaceE@Base 4:5.1.1+git20141128.0009
+ _ZTSN8KWayland6Server6CursorE@Base 4:5.2.1+git20150228.0043+15.04
  _ZTSN8KWayland6Server6Global7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server6GlobalE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server7DisplayE@Base 4:5.1.1+git20141128.0009
@@ -764,6 +789,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTVN8KWayland6Server22SubCompositorInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server26DataDeviceManagerInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server26DataDeviceManagerInterfaceE@Base 4:5.1.1+git20141128.0009
+ _ZTVN8KWayland6Server6CursorE@Base 4:5.2.1+git20150228.0043+15.04
  _ZTVN8KWayland6Server6Global7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server6GlobalE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server7DisplayE@Base 4:5.1.1+git20141128.0009
