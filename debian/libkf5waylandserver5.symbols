@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.1+git20150228.0043+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.1+git20150303.0028+15.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 4:5.1.1+git20141128.0009
@@ -76,6 +76,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server14ShellInterfaceD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server15BufferInterface11sizeChangedEv@Base 4:5.2.1+git20150303.0028+15.04
  _ZN8KWayland6Server15BufferInterface16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterface18aboutToBeDestroyedEPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterface3refEv@Base 4:5.1.1+git20141128.0009
@@ -92,6 +93,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server15BufferInterface7PrivateC2EPS1_P11wl_resourcePNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server15BufferInterface7setSizeERK5QSize@Base 4:5.2.1+git20150303.0028+15.04
  _ZN8KWayland6Server15BufferInterface9shmBufferEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterfaceC1EP11wl_resourcePNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15BufferInterfaceC2EP11wl_resourcePNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
@@ -593,6 +595,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server14ShellInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15BufferInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15BufferInterface12isReferencedEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server15BufferInterface4sizeEv@Base 4:5.2.1+git20150303.0028+15.04
  _ZNK8KWayland6Server15BufferInterface7Private6formatEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15BufferInterface7surfaceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15BufferInterface8resourceEv@Base 4:5.2.1+git20150225.0737+15.04
