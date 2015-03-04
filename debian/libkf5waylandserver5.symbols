@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.1+git20150303.0028+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.1+git20150304.0028+15.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11keyReleasedEj@Base 4:5.1.1+git20141128.0009
@@ -206,6 +206,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16PointerInterfaceD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server16SurfaceInterface11sizeChangedEv@Base 4:5.2.1+git20150304.0028+15.04
  _ZN8KWayland6Server16SurfaceInterface12inputChangedERK7QRegion@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface12scaleChangedEi@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface13frameRenderedEj@Base 4:5.1.1+git20141128.0009
@@ -516,6 +517,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server7Display12createOutputEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display12removeOutputEPNS0_15OutputInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display13getConnectionEP9wl_client@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server7Display13setEglDisplayEPv@Base 4:5.2.1+git20150304.0028+15.04
  _ZN8KWayland6Server7Display13setSocketNameERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display14dispatchEventsEi@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display14runningChangedEb@Base 4:5.1.1+git20141128.0009
@@ -628,6 +630,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server16SurfaceInterface10subSurfaceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface15inputIsInfitineEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface16childSubSurfacesEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server16SurfaceInterface4sizeEv@Base 4:5.2.1+git20150304.0028+15.04
  _ZNK8KWayland6Server16SurfaceInterface5inputEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface5scaleEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface6d_funcEv@Base 4:5.1.1+git20141128.0009
@@ -675,6 +678,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server6Global10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server6Global7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server6GlobalcvP9wl_globalEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server7Display10eglDisplayEv@Base 4:5.2.1+git20150304.0028+15.04
  _ZNK8KWayland6Server7Display10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server7Display10socketNameEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server7Display11connectionsEv@Base 4:5.1.1+git20141128.0009
