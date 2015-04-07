@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.2+git20150326.0109+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.2+git20150407.0736 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -191,6 +191,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client16ConnectionThread14initConnectionEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread16doInitConnectionEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client16ConnectionThread5flushEv@Base 4:5.2.2+git20150407.0736
  _ZN8KWayland6Client16ConnectionThread6failedEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7Private16doInitConnectionEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7Private19setupSocketNotifierEv@Base 4:5.1.1+git20141128.0009
@@ -308,6 +309,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client5TouchcvP8wl_touchEv@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Client6Buffer11setReleasedEb@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer4copyEPKv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client6Buffer5getIdEP9wl_buffer@Base 4:5.2.2+git20150407.0736
  _ZN8KWayland6Client6Buffer7Private10s_listenerE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7Private16releasedCallbackEPvP9wl_buffer@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7Private7destroyEv@Base 4:5.1.1+git20141128.0009
