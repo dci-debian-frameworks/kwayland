@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.2+git20150407.0736 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.2+git20150422.0117+15.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface10keyPressedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface10touchFrameEv@Base 4:5.2.2+git20150326.0109+15.04
@@ -566,6 +566,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server7Display7Private10setRunningEb@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display7Private21installSocketNotifierEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display7Private5flushEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server7Display7Private8dispatchEv@Base 4:5.2.2+git20150422.0117+15.04
  _ZN8KWayland6Server7Display7PrivateC1EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display7PrivateC2EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display9createShmEv@Base 4:5.1.1+git20141128.0009
