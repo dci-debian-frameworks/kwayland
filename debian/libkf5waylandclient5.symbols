@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.0 amd64
+# SymbolsHelper-Confirmed: 4:5.3.0 amd64
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
@@ -115,8 +115,14 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10SubSurfaceD1Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10SubSurfaceD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client10SubSurfacecvP13wl_subsurfaceEv@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client10TouchPointC1Ev@Base 4:5.3.0
+ _ZN8KWayland6Client10TouchPointC2Ev@Base 4:5.3.0
+ _ZN8KWayland6Client10TouchPointD0Ev@Base 4:5.3.0
+ _ZN8KWayland6Client10TouchPointD1Ev@Base 4:5.3.0
+ _ZN8KWayland6Client10TouchPointD2Ev@Base 4:5.3.0
  _ZN8KWayland6Client12ShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface11qt_metacastEPKc@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client12ShellSurface11setToplevelEv@Base 4:5.3.0
  _ZN8KWayland6Client12ShellSurface11sizeChangedERK5QSize@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface12setMaximizedEPNS0_6OutputE@Base 5.1.1+git20141216.0026+15.04
  _ZN8KWayland6Client12ShellSurface13setFullscreenEPNS0_6OutputE@Base 5.1.1+git20141128.0009
@@ -185,6 +191,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client16ConnectionThread14initConnectionEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread16doInitConnectionEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread16staticMetaObjectE@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client16ConnectionThread5flushEv@Base 4:5.3.0
  _ZN8KWayland6Client16ConnectionThread6failedEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7Private16doInitConnectionEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7Private19setupSocketNotifierEv@Base 5.1.1+git20141128.0009
@@ -217,6 +224,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client17DataDeviceManagerD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManagercvP22wl_data_device_managerEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4Seat10eventQueueEv@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client4Seat11createTouchEP7QObject@Base 4:5.3.0
  _ZN8KWayland6Client4Seat11nameChangedERK7QString@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4Seat11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client4Seat11qt_metacastEPKc@Base 5.1.1+git20141128.0009
@@ -268,8 +276,40 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client5ShellD1Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client5ShellD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client5ShellcvP8wl_shellEv@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client5Touch10frameEndedEv@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch10pointAddedEPNS0_10TouchPointE@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch10pointMovedEPNS0_10TouchPointE@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch11qt_metacastEPKc@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch12pointRemovedEPNS0_10TouchPointE@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch13sequenceEndedEv@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch15sequenceStartedEPNS0_10TouchPointE@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch16sequenceCanceledEv@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch16staticMetaObjectE@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch5setupEP8wl_touch@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private10s_listenerE@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private10upCallbackEPvP8wl_touchjji@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private12downCallbackEPvP8wl_touchjjP10wl_surfaceiii@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private13frameCallbackEPvP8wl_touch@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private14cancelCallbackEPvP8wl_touch@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private14motionCallbackEPvP8wl_touchjiii@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private2upEjji@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private4downEjjiRK7QPointFRK8QPointerINS0_7SurfaceEE@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private5setupEP8wl_touch@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7Private6motionEjiRK7QPointF@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7PrivateC1EPS1_@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7PrivateC2EPS1_@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7destroyEv@Base 4:5.3.0
+ _ZN8KWayland6Client5Touch7releaseEv@Base 4:5.3.0
+ _ZN8KWayland6Client5TouchC1EP7QObject@Base 4:5.3.0
+ _ZN8KWayland6Client5TouchC2EP7QObject@Base 4:5.3.0
+ _ZN8KWayland6Client5TouchD0Ev@Base 4:5.3.0
+ _ZN8KWayland6Client5TouchD1Ev@Base 4:5.3.0
+ _ZN8KWayland6Client5TouchD2Ev@Base 4:5.3.0
+ _ZN8KWayland6Client5TouchcvP8wl_touchEv@Base 4:5.3.0
  _ZN8KWayland6Client6Buffer11setReleasedEb@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer4copyEPKv@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client6Buffer5getIdEP9wl_buffer@Base 4:5.3.0
  _ZN8KWayland6Client6Buffer7Private10s_listenerE@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7Private16releasedCallbackEPvP9wl_buffer@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6Buffer7Private7destroyEv@Base 5.1.1+git20141128.0009
@@ -336,6 +376,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6RegionD1Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6RegionD2Ev@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client6RegioncvP9wl_regionEv@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Pointer10hideCursorEv@Base 4:5.3.0
  _ZN8KWayland6Client7Pointer11axisChangedEjNS1_4AxisEd@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer11qt_metacastEPKc@Base 5.1.1+git20141128.0009
@@ -359,6 +400,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7Pointer7destroyEv@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7enteredEjRK7QPointF@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer7releaseEv@Base 5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Pointer9setCursorEPNS0_7SurfaceERK6QPoint@Base 4:5.3.0
  _ZN8KWayland6Client7PointerC1EP7QObject@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7PointerC2EP7QObject@Base 5.1.1+git20141128.0009
  _ZN8KWayland6Client7PointerD0Ev@Base 5.1.1+git20141128.0009
@@ -543,6 +585,15 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client10SubSurface7surfaceEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client10SubSurface8positionEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client10SubSurfacecvP13wl_subsurfaceEv@Base 5.1.1+git20141128.0009
+ _ZNK8KWayland6Client10TouchPoint10downSerialEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint10timestampsEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint2idEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint4timeEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint6isDownEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint7surfaceEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint8positionEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint8upSerialEv@Base 4:5.3.0
+ _ZNK8KWayland6Client10TouchPoint9positionsEv@Base 4:5.3.0
  _ZNK8KWayland6Client12ShellSurface10metaObjectEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client12ShellSurface4sizeEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client12ShellSurface7isValidEv@Base 5.1.1+git20141128.0009
@@ -569,6 +620,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client5Shell10metaObjectEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client5Shell7isValidEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client5ShellcvP8wl_shellEv@Base 5.1.1+git20141128.0009
+ _ZNK8KWayland6Client5Touch10metaObjectEv@Base 4:5.3.0
+ _ZNK8KWayland6Client5Touch7Private14getActivePointEi@Base 4:5.3.0
+ _ZNK8KWayland6Client5Touch7isValidEv@Base 4:5.3.0
+ _ZNK8KWayland6Client5Touch8sequenceEv@Base 4:5.3.0
+ _ZNK8KWayland6Client5TouchcvP8wl_touchEv@Base 4:5.3.0
  _ZNK8KWayland6Client6Buffer10isReleasedEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client6Buffer4sizeEv@Base 5.1.1+git20141128.0009
  _ZNK8KWayland6Client6Buffer6bufferEv@Base 5.1.1+git20141128.0009
@@ -640,6 +696,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client10DataSourceE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client10EventQueueE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client10SubSurfaceE@Base 5.1.1+git20141128.0009
+ _ZTIN8KWayland6Client10TouchPointE@Base 4:5.3.0
  _ZTIN8KWayland6Client12ShellSurfaceE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client13SubCompositorE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client15FullscreenShellE@Base 5.1.1+git20141128.0009
@@ -647,6 +704,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client17DataDeviceManagerE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client4SeatE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client5ShellE@Base 5.1.1+git20141128.0009
+ _ZTIN8KWayland6Client5TouchE@Base 4:5.3.0
  _ZTIN8KWayland6Client6OutputE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client6RegionE@Base 5.1.1+git20141128.0009
  _ZTIN8KWayland6Client7PointerE@Base 5.1.1+git20141128.0009
@@ -660,6 +718,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client10DataSourceE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client10EventQueueE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client10SubSurfaceE@Base 5.1.1+git20141128.0009
+ _ZTSN8KWayland6Client10TouchPointE@Base 4:5.3.0
  _ZTSN8KWayland6Client12ShellSurfaceE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client13SubCompositorE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client15FullscreenShellE@Base 5.1.1+git20141128.0009
@@ -667,6 +726,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client17DataDeviceManagerE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client4SeatE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client5ShellE@Base 5.1.1+git20141128.0009
+ _ZTSN8KWayland6Client5TouchE@Base 4:5.3.0
  _ZTSN8KWayland6Client6OutputE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client6RegionE@Base 5.1.1+git20141128.0009
  _ZTSN8KWayland6Client7PointerE@Base 5.1.1+git20141128.0009
@@ -680,6 +740,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client10DataSourceE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client10EventQueueE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client10SubSurfaceE@Base 5.1.1+git20141128.0009
+ _ZTVN8KWayland6Client10TouchPointE@Base 4:5.3.0
  _ZTVN8KWayland6Client12ShellSurfaceE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client13SubCompositorE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client15FullscreenShellE@Base 5.1.1+git20141128.0009
@@ -687,6 +748,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client17DataDeviceManagerE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client4SeatE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client5ShellE@Base 5.1.1+git20141128.0009
+ _ZTVN8KWayland6Client5TouchE@Base 4:5.3.0
  _ZTVN8KWayland6Client6OutputE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client6RegionE@Base 5.1.1+git20141128.0009
  _ZTVN8KWayland6Client7PointerE@Base 5.1.1+git20141128.0009
