@@ -1,6 +1,6 @@
 #!/bin/sh
 export LANG=C.UTF-8
 export LC_ALL=C.UTF-8
-weston &
-sleep 5
+# weston &
+# sleep 5
 dh_auto_test
