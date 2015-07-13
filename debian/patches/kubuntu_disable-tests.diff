@@ -1,0 +1,22 @@
+Index: kwayland-5.3.2/autotests/client/CMakeLists.txt
+===================================================================
+--- kwayland-5.3.2.orig/autotests/client/CMakeLists.txt
++++ kwayland-5.3.2/autotests/client/CMakeLists.txt
+@@ -31,8 +31,6 @@ if(Wayland_VERSION VERSION_GREATER "1.4.
+         )
+     add_executable(testWaylandFullscreenShell ${testWaylandFullscreenShell_SRCS})
+     target_link_libraries( testWaylandFullscreenShell Qt5::Test KF5::WaylandClient Wayland::Client)
+-    add_test(kwayland-testWaylandFullscreenShell testWaylandFullscreenShell)
+-    ecm_mark_as_test(testWaylandFullscreenShell)
+ endif()
+ 
+ ########################################################
+@@ -76,8 +74,6 @@ set( testWaylandSeat_SRCS
+     )
+ add_executable(testWaylandSeat ${testWaylandSeat_SRCS})
+ target_link_libraries( testWaylandSeat Qt5::Test Qt5::Gui KF5::WaylandClient KF5::WaylandServer Wayland::Client Wayland::Server)
+-add_test(kwayland-testWaylandSeat testWaylandSeat)
+-ecm_mark_as_test(testWaylandSeat)
+ 
+ ########################################################
+ # Test ShmPool
