@@ -53,6 +53,7 @@ Description: Qt library wrapper for Wayland libraries
 
 Package: kwayland-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: Qt library wrapper for Wayland libraries - data files
  KWayland provides a Qt-style Server library wrapper for
