@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.1+git20150917.0854 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.1+git20150919.0050+15.10 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -428,6 +428,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client18PlasmaShellSurface11setPositionERK6QPoint@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurface16setPanelBehaviorENS1_13PanelBehaviorE@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurface16staticMetaObjectE@Base 4:5.3.95
+ _ZN8KWayland6Client18PlasmaShellSurface3getEPNS0_7SurfaceE@Base 4:5.4.1+git20150919.0050+15.10
  _ZN8KWayland6Client18PlasmaShellSurface5setupEP22org_kde_plasma_surface@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurface7Private10s_surfacesE@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Client18PlasmaShellSurface7Private3getEPNS0_7SurfaceE@Base 4:5.4.1+git20150917.0854
@@ -1095,6 +1096,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client17PlasmaWindowModel8rowCountERK11QModelIndex@Base 4:5.3.95
  _ZNK8KWayland6Client17PlasmaWindowModel9roleNamesEv@Base 4:5.3.95
  _ZNK8KWayland6Client18PlasmaShellSurface10metaObjectEv@Base 4:5.3.95
+ _ZNK8KWayland6Client18PlasmaShellSurface4roleEv@Base 4:5.4.1+git20150919.0050+15.10
  _ZNK8KWayland6Client18PlasmaShellSurface7isValidEv@Base 4:5.3.95
  _ZNK8KWayland6Client18PlasmaShellSurfacecvP22org_kde_plasma_surfaceEv@Base 4:5.3.95
  _ZNK8KWayland6Client22PlasmaWindowManagement10metaObjectEv@Base 4:5.3.95
