@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.0 amd64
+# SymbolsHelper-Confirmed: 4:5.4.1 alpha arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13IdleInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.0
  _ZN8KWayland6Server13IdleInterface11qt_metacastEPKc@Base 4:5.4.0
@@ -66,9 +66,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface7Private9updateKeyEjNS2_8Keyboard5StateE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7PrivateC2EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server13SeatInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server13SeatInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server13SeatInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7setNameERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7touchUpEi@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server13SeatInterface9setKeymapEij@Base 4:5.1.1+git20141128.0009
@@ -89,9 +86,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server14ShellInterface7Private4bindEP9wl_clientjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server14ShellInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server14ShellInterface7PrivateC2EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server14ShellInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server14ShellInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server14ShellInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server14ShellInterfaceC1EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server14ShellInterfaceC2EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server14ShellInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
@@ -109,9 +103,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server14TouchInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterface7PrivateC1EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterface7PrivateC2EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.2.2+git20150326.0109+15.04
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server14TouchInterface7PrivateD0Ev@Base 4:5.2.2+git20150326.0109+15.04
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server14TouchInterface7PrivateD1Ev@Base 4:5.2.2+git20150326.0109+15.04
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server14TouchInterface7PrivateD2Ev@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterfaceC1EPNS0_13SeatInterfaceEP11wl_resource@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterfaceC2EPNS0_13SeatInterfaceEP11wl_resource@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterfaceD0Ev@Base 4:5.2.2+git20150326.0109+15.04
@@ -192,9 +183,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server15OutputInterface7Private9sendScaleERKNS2_12ResourceDataE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface7PrivateC2EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server15OutputInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server15OutputInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server15OutputInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface7addModeERK5QSize6QFlagsINS1_8ModeFlagEEi@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface8setModelERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface8setScaleEi@Base 4:5.1.1+git20141128.0009
@@ -288,9 +276,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16PointerInterface7Private9setCursorEjPNS0_16SurfaceInterfaceERK6QPoint@Base 4:5.2.1+git20150228.0043+15.04
  _ZN8KWayland6Server16PointerInterface7PrivateC1EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7PrivateC2EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server16PointerInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server16PointerInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server16PointerInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterfaceC1EPNS0_13SeatInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterfaceC2EPNS0_13SeatInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
@@ -361,9 +346,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server17KeyboardInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface7PrivateC1EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface7PrivateC2EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server17KeyboardInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server17KeyboardInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server17KeyboardInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface9setKeymapEij@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterfaceC1EPNS0_13SeatInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterfaceC2EPNS0_13SeatInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
@@ -422,9 +404,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server19CompositorInterface7Private6unbindEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19CompositorInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19CompositorInterface7PrivateC2EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server19CompositorInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server19CompositorInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server19CompositorInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19CompositorInterfaceC1EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19CompositorInterfaceC2EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19CompositorInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
@@ -624,9 +603,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21ShellSurfaceInterface7Private8setTitleERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7PrivateC1EPS1_PNS0_14ShellInterfaceEPNS0_16SurfaceInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterface7PrivateC2EPS1_PNS0_14ShellInterfaceEPNS0_16SurfaceInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server21ShellSurfaceInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server21ShellSurfaceInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server21ShellSurfaceInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterfaceC1EPNS0_14ShellInterfaceEPNS0_16SurfaceInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterfaceC2EPNS0_14ShellInterfaceEPNS0_16SurfaceInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server21ShellSurfaceInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
@@ -660,9 +636,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server22SubCompositorInterface7Private6unbindEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server22SubCompositorInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server22SubCompositorInterface7PrivateC2EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server22SubCompositorInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server22SubCompositorInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server22SubCompositorInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server22SubCompositorInterfaceC1EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server22SubCompositorInterfaceC2EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server22SubCompositorInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
@@ -682,9 +655,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server26DataDeviceManagerInterface7Private6unbindEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterface7PrivateC2EPS1_PNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server26DataDeviceManagerInterface7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server26DataDeviceManagerInterface7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
- (optional=gccinternal|arch=!amd64)_ZN8KWayland6Server26DataDeviceManagerInterface7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterfaceC1EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterfaceC2EPNS0_7DisplayEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
