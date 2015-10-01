@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.1+git20150917.0854 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.1+git20151001.0029+15.10 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13BlurInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Server13BlurInterface11qt_metacastEPKc@Base 4:5.4.1+git20150917.0854
@@ -645,6 +645,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21PlasmaWindowInterface12setMinimizedEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface13setFullscreenEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface14closeRequestedEv@Base 4:5.3.95
+ _ZN8KWayland6Server21PlasmaWindowInterface14setSkipTaskbarEb@Base 4:5.4.1+git20151001.0029+15.10
  _ZN8KWayland6Server21PlasmaWindowInterface15activeRequestedEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface15setMaximizeableEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface15setMinimizeableEb@Base 4:5.3.95
@@ -660,6 +661,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21PlasmaWindowInterface18minimizedRequestedEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface19fullscreenRequestedEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface19setDemandsAttentionEb@Base 4:5.3.95
+ _ZN8KWayland6Server21PlasmaWindowInterface20skipTaskbarRequestedEb@Base 4:5.4.1+git20151001.0029+15.10
  _ZN8KWayland6Server21PlasmaWindowInterface21maximizeableRequestedEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface21minimizeableRequestedEb@Base 4:5.3.95
  _ZN8KWayland6Server21PlasmaWindowInterface23fullscreenableRequestedEb@Base 4:5.3.95
@@ -846,6 +848,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface11roleChangedEv@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface15positionChangedEv@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface16staticMetaObjectE@Base 4:5.3.95
+ _ZN8KWayland6Server27PlasmaShellSurfaceInterface18skipTaskbarChangedEv@Base 4:5.4.1+git20151001.0029+15.10
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface20panelBehaviorChangedEv@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private11s_interfaceE@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private11setPositionERK6QPoint@Base 4:5.3.95
@@ -854,6 +857,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private16setPanelBehaviorE37org_kde_plasma_surface_panel_behavior@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private17setOutputCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private19setPositionCallbackEP9wl_clientP11wl_resourceii@Base 4:5.3.95
+ _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private22setSkipTaskbarCallbackEP9wl_clientP11wl_resourcej@Base 4:5.4.1+git20151001.0029+15.10
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private24setPanelBehaviorCallbackEP9wl_clientP11wl_resourcej@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private7setRoleEj@Base 4:5.3.95
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7PrivateC1EPS1_PNS0_20PlasmaShellInterfaceEPNS0_16SurfaceInterfaceEP11wl_resource@Base 4:5.3.95
@@ -1169,6 +1173,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server26QtExtendedSurfaceInterface6d_funcEv@Base 4:5.3.95
  _ZNK8KWayland6Server26QtExtendedSurfaceInterface7surfaceEv@Base 4:5.3.95
  _ZNK8KWayland6Server27PlasmaShellSurfaceInterface10metaObjectEv@Base 4:5.3.95
+ _ZNK8KWayland6Server27PlasmaShellSurfaceInterface11skipTaskbarEv@Base 4:5.4.1+git20151001.0029+15.10
  _ZNK8KWayland6Server27PlasmaShellSurfaceInterface13isPositionSetEv@Base 4:5.3.95
  _ZNK8KWayland6Server27PlasmaShellSurfaceInterface13panelBehaviorEv@Base 4:5.3.95
  _ZNK8KWayland6Server27PlasmaShellSurfaceInterface4roleEv@Base 4:5.3.95

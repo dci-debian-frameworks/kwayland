@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.1+git20150919.0050+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.1+git20151001.0029+15.10 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -210,6 +210,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow16minimizedChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow16staticMetaObjectE@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow17fullscreenChangedEv@Base 4:5.3.95
+ _ZN8KWayland6Client12PlasmaWindow18skipTaskbarChangedEv@Base 4:5.4.1+git20151001.0029+15.10
  _ZN8KWayland6Client12PlasmaWindow19maximizeableChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow19minimizeableChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow20onAllDesktopsChangedEv@Base 4:5.3.95
@@ -224,6 +225,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow7Private12setMaximizedEb@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private12setMinimizedEb@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private13setFullscreenEb@Base 4:5.3.95
+ _ZN8KWayland6Client12PlasmaWindow7Private14setSkipTaskbarEb@Base 4:5.4.1+git20151001.0029+15.10
  _ZN8KWayland6Client12PlasmaWindow7Private15setMaximizeableEb@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private15setMinimizeableEb@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private16setOnAllDesktopsEb@Base 4:5.3.95
@@ -426,6 +428,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client18PlasmaShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurface11qt_metacastEPKc@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurface11setPositionERK6QPoint@Base 4:5.3.95
+ _ZN8KWayland6Client18PlasmaShellSurface14setSkipTaskbarEb@Base 4:5.4.1+git20151001.0029+15.10
  _ZN8KWayland6Client18PlasmaShellSurface16setPanelBehaviorENS1_13PanelBehaviorE@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurface16staticMetaObjectE@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurface3getEPNS0_7SurfaceE@Base 4:5.4.1+git20150919.0050+15.10
@@ -1051,6 +1054,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client12PlasmaWindow11isKeepBelowEv@Base 4:5.3.95
  _ZNK8KWayland6Client12PlasmaWindow11isMaximizedEv@Base 4:5.3.95
  _ZNK8KWayland6Client12PlasmaWindow11isMinimizedEv@Base 4:5.3.95
+ _ZNK8KWayland6Client12PlasmaWindow11skipTaskbarEv@Base 4:5.4.1+git20151001.0029+15.10
  _ZNK8KWayland6Client12PlasmaWindow12isFullscreenEv@Base 4:5.3.95
  _ZNK8KWayland6Client12PlasmaWindow14isMaximizeableEv@Base 4:5.3.95
  _ZNK8KWayland6Client12PlasmaWindow14isMinimizeableEv@Base 4:5.3.95
