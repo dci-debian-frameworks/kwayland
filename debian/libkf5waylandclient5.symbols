@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.1+git20151001.0029+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.2+git20151029.0119+15.10 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -217,6 +217,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow21fullscreenableChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow21requestVirtualDesktopEj@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow21virtualDesktopChangedEv@Base 4:5.3.95
+ _ZN8KWayland6Client12PlasmaWindow22requestToggleMaximizedEv@Base 4:5.4.2+git20151029.0119+15.10
+ _ZN8KWayland6Client12PlasmaWindow22requestToggleMinimizedEv@Base 4:5.4.2+git20151029.0119+15.10
  _ZN8KWayland6Client12PlasmaWindow23demandsAttentionChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private10s_listenerE@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private12setCloseableEb@Base 4:5.3.95
@@ -416,6 +418,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client17PlasmaWindowModel15requestActivateEi@Base 4:5.3.95
  _ZN8KWayland6Client17PlasmaWindowModel16staticMetaObjectE@Base 4:5.3.95
  _ZN8KWayland6Client17PlasmaWindowModel21requestVirtualDesktopEij@Base 4:5.3.95
+ _ZN8KWayland6Client17PlasmaWindowModel22requestToggleMaximizedEi@Base 4:5.4.2+git20151029.0119+15.10
+ _ZN8KWayland6Client17PlasmaWindowModel22requestToggleMinimizedEi@Base 4:5.4.2+git20151029.0119+15.10
  _ZN8KWayland6Client17PlasmaWindowModel7Private11dataChangedEPNS0_12PlasmaWindowEi@Base 4:5.3.95
  _ZN8KWayland6Client17PlasmaWindowModel7Private9addWindowEPNS0_12PlasmaWindowE@Base 4:5.3.95
  _ZN8KWayland6Client17PlasmaWindowModel7PrivateC1EPS1_@Base 4:5.3.95
