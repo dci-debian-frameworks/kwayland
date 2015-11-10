@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.2+git20151029.0119+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.2+git20151109.2356+15.10 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -195,6 +195,44 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client11PlasmaShellD1Ev@Base 4:5.3.95
  _ZN8KWayland6Client11PlasmaShellD2Ev@Base 4:5.3.95
  _ZN8KWayland6Client11PlasmaShellcvP20org_kde_plasma_shellEv@Base 4:5.3.95
+ _ZN8KWayland6Client12OutputDevice11modeChangedERKNS1_4ModeE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice11qt_metacastEPKc@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice11uuidChangedERK10QByteArray@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice13setEventQueueEPNS0_10EventQueueE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice14enabledChangedENS1_10EnablementE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice16staticMetaObjectE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice4doneEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice5setupEP25org_kde_kwin_outputdevice@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice6outputEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private11setSubPixelENS1_8SubPixelE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private12doneCallbackEPvP25org_kde_kwin_outputdevice@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private12edidCallbackEPvP25org_kde_kwin_outputdevicePKc@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private12modeCallbackEPvP25org_kde_kwin_outputdevicejiiii@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private12setTransformENS1_9TransformE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private12uuidCallbackEPvP25org_kde_kwin_outputdevicePKc@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private13scaleCallbackEPvP25org_kde_kwin_outputdevicei@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private15enabledCallbackEPvP25org_kde_kwin_outputdevicei@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private15setManufacturerERK7QString@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private15setPhysicalSizeERK5QSize@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private16geometryCallbackEPvP25org_kde_kwin_outputdeviceiiiiiPKcS7_i@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private16s_outputListenerE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private17setGlobalPositionERK6QPoint@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private5setupEP25org_kde_kwin_outputdevice@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private7addModeEjiiii@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private8setModelERK7QString@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7Private8setScaleEi@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7PrivateC1EPS1_@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7PrivateC2EPS1_@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7changedEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice7removedEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevice9modeAddedERKNS1_4ModeE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDeviceC1EP7QObject@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDeviceC2EP7QObject@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDeviceD0Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDeviceD1Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDeviceD2Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client12OutputDevicecvP25org_kde_kwin_outputdeviceEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client12PlasmaWindow11iconChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow11qt_metacastEPKc@Base 4:5.3.95
@@ -214,11 +252,13 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow19maximizeableChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow19minimizeableChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow20onAllDesktopsChangedEv@Base 4:5.3.95
+ _ZN8KWayland6Client12PlasmaWindow20setMinimizedGeometryEPNS0_7SurfaceERK5QRect@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client12PlasmaWindow21fullscreenableChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow21requestVirtualDesktopEj@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow21virtualDesktopChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow22requestToggleMaximizedEv@Base 4:5.4.2+git20151029.0119+15.10
  _ZN8KWayland6Client12PlasmaWindow22requestToggleMinimizedEv@Base 4:5.4.2+git20151029.0119+15.10
+ _ZN8KWayland6Client12PlasmaWindow22unsetMinimizedGeometryEPNS0_7SurfaceE@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client12PlasmaWindow23demandsAttentionChangedEv@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private10s_listenerE@Base 4:5.3.95
  _ZN8KWayland6Client12PlasmaWindow7Private12setCloseableEb@Base 4:5.3.95
@@ -253,10 +293,12 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindowcvP21org_kde_plasma_windowEv@Base 4:5.3.95
  _ZN8KWayland6Client12ShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client12ShellSurface11requestMoveEPNS0_4SeatEj@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client12ShellSurface11setToplevelEv@Base 4:5.1.95+git20150120.0007+15.04
  _ZN8KWayland6Client12ShellSurface11sizeChangedERK5QSize@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface12setMaximizedEPNS0_6OutputE@Base 4:5.1.1+git20141216.0026+15.04
  _ZN8KWayland6Client12ShellSurface12setTransientEPNS0_7SurfaceERK6QPoint6QFlagsINS1_13TransientFlagEE@Base 4:5.4.1+git20150917.0854
+ _ZN8KWayland6Client12ShellSurface13requestResizeEPNS0_4SeatEj6QFlagsIN2Qt4EdgeEE@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client12ShellSurface13setFullscreenEPNS0_6OutputE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client12ShellSurface5setupEP16wl_shell_surface@Base 4:5.1.1+git20141128.0009
@@ -395,6 +437,22 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client16ConnectionThreadD0Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThreadD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThreadD2Ev@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client16OutputManagement10eventQueueEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement11qt_metacastEPKc@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement13setEventQueueEPNS0_10EventQueueE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement16staticMetaObjectE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement19createConfigurationEP7QObject@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement5setupEP29org_kde_kwin_outputmanagement@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement7destroyEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement7releaseEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagement7removedEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagementC1EP7QObject@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagementC2EP7QObject@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagementD0Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagementD1Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagementD2Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client16OutputManagementcvP29org_kde_kwin_outputmanagementEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client17DataDeviceManager10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
@@ -417,6 +475,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client17PlasmaWindowModel12requestCloseEi@Base 4:5.3.95
  _ZN8KWayland6Client17PlasmaWindowModel15requestActivateEi@Base 4:5.3.95
  _ZN8KWayland6Client17PlasmaWindowModel16staticMetaObjectE@Base 4:5.3.95
+ _ZN8KWayland6Client17PlasmaWindowModel20setMinimizedGeometryEiPNS0_7SurfaceERK5QRect@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client17PlasmaWindowModel21requestVirtualDesktopEij@Base 4:5.3.95
  _ZN8KWayland6Client17PlasmaWindowModel22requestToggleMaximizedEi@Base 4:5.4.2+git20151029.0119+15.10
  _ZN8KWayland6Client17PlasmaWindowModel22requestToggleMinimizedEi@Base 4:5.4.2+git20151029.0119+15.10
@@ -453,6 +512,32 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client18PlasmaShellSurfaceD1Ev@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurfaceD2Ev@Base 4:5.3.95
  _ZN8KWayland6Client18PlasmaShellSurfacecvP22org_kde_plasma_surfaceEv@Base 4:5.3.95
+ _ZN8KWayland6Client19OutputConfiguration10eventQueueEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration10setEnabledEPNS0_12OutputDeviceENS2_10EnablementE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration11qt_metacastEPKc@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration11setPositionEPNS0_12OutputDeviceERK6QPoint@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration12setTransformEPNS0_12OutputDeviceENS2_9TransformE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration13setEventQueueEPNS0_10EventQueueE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration16staticMetaObjectE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration5applyEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration5setupEP32org_kde_kwin_outputconfiguration@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration6failedEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7Private14failedCallbackEPvP32org_kde_kwin_outputconfiguration@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7Private15appliedCallbackEPvP32org_kde_kwin_outputconfiguration@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7Private29s_outputconfigurationListenerE@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7Private5setupEP32org_kde_kwin_outputconfiguration@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7appliedEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7destroyEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7releaseEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration7setModeEPNS0_12OutputDeviceEi@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfiguration8setScaleEPNS0_12OutputDeviceEi@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfigurationC1EP7QObject@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfigurationC2EP7QObject@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfigurationD0Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfigurationD1Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfigurationD2Ev@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client19OutputConfigurationcvP32org_kde_kwin_outputconfigurationEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client22PlasmaWindowManagement10eventQueueEv@Base 4:5.3.95
  _ZN8KWayland6Client22PlasmaWindowManagement11hideDesktopEv@Base 4:5.3.95
  _ZN8KWayland6Client22PlasmaWindowManagement11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.3.95
@@ -923,6 +1008,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry17createBlurManagerEjjP7QObject@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Client8Registry17createDpmsManagerEjjP7QObject@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Client8Registry17createPlasmaShellEjjP7QObject@Base 4:5.3.95
+ _ZN8KWayland6Client8Registry18createOutputDeviceEjjP7QObject@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client8Registry18createSlideManagerEjjP7QObject@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Client8Registry18fakeInputAnnouncedEjj@Base 4:5.3.95
  _ZN8KWayland6Client8Registry18interfaceAnnouncedE10QByteArrayjj@Base 4:5.1.1+git20141128.0009
@@ -931,15 +1017,20 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry19createShadowManagerEjjP7QObject@Base 4:5.3.95
  _ZN8KWayland6Client8Registry19createSubCompositorEjjP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry19interfacesAnnouncedEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Registry19outputDeviceRemovedEj@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client8Registry20plasmaShellAnnouncedEjj@Base 4:5.3.95
  _ZN8KWayland6Client8Registry20subCompositorRemovedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry21createContrastManagerEjjP7QObject@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Client8Registry21createFullscreenShellEjjP7QObject@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Registry21outputDeviceAnnouncedEjj@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Client8Registry22createOutputManagementEjjP7QObject@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client8Registry22fullscreenShellRemovedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry22subCompositorAnnouncedEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry23createDataDeviceManagerEjjP7QObject@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Registry23outputManagementRemovedEj@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client8Registry24dataDeviceManagerRemovedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry24fullscreenShellAnnouncedEjj@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client8Registry25outputManagementAnnouncedEjj@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Client8Registry26dataDeviceManagerAnnouncedEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry28createPlasmaWindowManagementEjjP7QObject@Base 4:5.3.95
  _ZN8KWayland6Client8Registry29plasmaWindowManagementRemovedEj@Base 4:5.3.95
@@ -1051,6 +1142,26 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client11PlasmaShell10metaObjectEv@Base 4:5.3.95
  _ZNK8KWayland6Client11PlasmaShell7isValidEv@Base 4:5.3.95
  _ZNK8KWayland6Client11PlasmaShellcvP20org_kde_plasma_shellEv@Base 4:5.3.95
+ _ZNK8KWayland6Client12OutputDevice10eventQueueEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice10metaObjectEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice11currentModeEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice11refreshRateEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice12manufacturerEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice12physicalSizeEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice14globalPositionEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice4ModeeqERKS2_@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice4edidEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice4uuidEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice5modelEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice5modesEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice5scaleEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice7enabledEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice7isValidEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice8geometryEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice8subPixelEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice9pixelSizeEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevice9transformEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client12OutputDevicecvP25org_kde_kwin_outputdeviceEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZNK8KWayland6Client12PlasmaWindow10internalIdEv@Base 4:5.3.95
  _ZNK8KWayland6Client12PlasmaWindow10metaObjectEv@Base 4:5.3.95
  _ZNK8KWayland6Client12PlasmaWindow11isCloseableEv@Base 4:5.3.95
@@ -1095,6 +1206,9 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client15FullscreenShell7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client16ConnectionThread10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client16ConnectionThread10socketNameEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client16OutputManagement10metaObjectEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client16OutputManagement7isValidEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client16OutputManagementcvP29org_kde_kwin_outputmanagementEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZNK8KWayland6Client17DataDeviceManager10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client17DataDeviceManager7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client17DataDeviceManagercvP22wl_data_device_managerEv@Base 4:5.1.1+git20141128.0009
@@ -1107,6 +1221,9 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client18PlasmaShellSurface4roleEv@Base 4:5.4.1+git20150919.0050+15.10
  _ZNK8KWayland6Client18PlasmaShellSurface7isValidEv@Base 4:5.3.95
  _ZNK8KWayland6Client18PlasmaShellSurfacecvP22org_kde_plasma_surfaceEv@Base 4:5.3.95
+ _ZNK8KWayland6Client19OutputConfiguration10metaObjectEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client19OutputConfiguration7isValidEv@Base 4:5.4.2+git20151109.2356+15.10
+ _ZNK8KWayland6Client19OutputConfigurationcvP32org_kde_kwin_outputconfigurationEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZNK8KWayland6Client22PlasmaWindowManagement10metaObjectEv@Base 4:5.3.95
  _ZNK8KWayland6Client22PlasmaWindowManagement12activeWindowEv@Base 4:5.3.95
  _ZNK8KWayland6Client22PlasmaWindowManagement16isShowingDesktopEv@Base 4:5.3.95
@@ -1204,11 +1321,13 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client8Registry15bindBlurManagerEjj@Base 4:5.4.1+git20150917.0854
  _ZNK8KWayland6Client8Registry15bindDpmsManagerEjj@Base 4:5.4.1+git20150917.0854
  _ZNK8KWayland6Client8Registry15bindPlasmaShellEjj@Base 4:5.3.95
+ _ZNK8KWayland6Client8Registry16bindOutputDeviceEjj@Base 4:5.4.2+git20151109.2356+15.10
  _ZNK8KWayland6Client8Registry16bindSlideManagerEjj@Base 4:5.4.1+git20150917.0854
  _ZNK8KWayland6Client8Registry17bindShadowManagerEjj@Base 4:5.3.95
  _ZNK8KWayland6Client8Registry17bindSubCompositorEjj@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Registry19bindContrastManagerEjj@Base 4:5.4.1+git20150917.0854
  _ZNK8KWayland6Client8Registry19bindFullscreenShellEjj@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client8Registry20bindOutputManagementEjj@Base 4:5.4.2+git20151109.2356+15.10
  _ZNK8KWayland6Client8Registry21bindDataDeviceManagerEjj@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Registry26bindPlasmaWindowManagementEjj@Base 4:5.3.95
  _ZNK8KWayland6Client8Registry7Private10interfacesENS1_9InterfaceE@Base 4:5.4.1+git20150917.0854
@@ -1222,9 +1341,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI23org_kde_kwin_fake_inputEEPT_NS1_9InterfaceEjj@Base 4:5.3.95
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI25org_kde_kwin_blur_managerEEPT_NS1_9InterfaceEjj@Base 4:5.4.1+git20150917.0854
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI25org_kde_kwin_dpms_managerEEPT_NS1_9InterfaceEjj@Base 4:5.4.1+git20150917.0854
+ (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI25org_kde_kwin_outputdeviceEEPT_NS1_9InterfaceEjj@Base 4:5.4.2+git20151109.2356+15.10
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI26org_kde_kwin_slide_managerEEPT_NS1_9InterfaceEjj@Base 4:5.4.1+git20150917.0854
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI27org_kde_kwin_shadow_managerEEPT_NS1_9InterfaceEjj@Base 4:5.3.95
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI29org_kde_kwin_contrast_managerEEPT_NS1_9InterfaceEjj@Base 4:5.4.1+git20150917.0854
+ (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI29org_kde_kwin_outputmanagementEEPT_NS1_9InterfaceEjj@Base 4:5.4.2+git20151109.2356+15.10
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI32org_kde_plasma_window_managementEEPT_NS1_9InterfaceEjj@Base 4:5.3.95
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI6wl_shmEEPT_NS1_9InterfaceEjj@Base 4:5.1.1+git20141128.0009
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI7wl_seatEEPT_NS1_9InterfaceEjj@Base 4:5.1.1+git20141128.0009
@@ -1255,6 +1376,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client11DpmsManagerE@Base 4:5.4.1+git20150917.0854
  _ZTIN8KWayland6Client11IdleTimeoutE@Base 4:5.3.95
  _ZTIN8KWayland6Client11PlasmaShellE@Base 4:5.3.95
+ _ZTIN8KWayland6Client12OutputDeviceE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTIN8KWayland6Client12PlasmaWindowE@Base 4:5.3.95
  _ZTIN8KWayland6Client12ShellSurfaceE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client12SlideManagerE@Base 4:5.4.1+git20150917.0854
@@ -1263,9 +1385,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client15ContrastManagerE@Base 4:5.4.1+git20150917.0854
  _ZTIN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client16ConnectionThreadE@Base 4:5.1.1+git20141128.0009
+ _ZTIN8KWayland6Client16OutputManagementE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTIN8KWayland6Client17DataDeviceManagerE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client17PlasmaWindowModelE@Base 4:5.3.95
  _ZTIN8KWayland6Client18PlasmaShellSurfaceE@Base 4:5.3.95
+ _ZTIN8KWayland6Client19OutputConfigurationE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTIN8KWayland6Client22PlasmaWindowManagementE@Base 4:5.3.95
  _ZTIN8KWayland6Client4BlurE@Base 4:5.4.1+git20150917.0854
  _ZTIN8KWayland6Client4DpmsE@Base 4:5.4.1+git20150917.0854
@@ -1295,6 +1419,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client11DpmsManagerE@Base 4:5.4.1+git20150917.0854
  _ZTSN8KWayland6Client11IdleTimeoutE@Base 4:5.3.95
  _ZTSN8KWayland6Client11PlasmaShellE@Base 4:5.3.95
+ _ZTSN8KWayland6Client12OutputDeviceE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTSN8KWayland6Client12PlasmaWindowE@Base 4:5.3.95
  _ZTSN8KWayland6Client12ShellSurfaceE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client12SlideManagerE@Base 4:5.4.1+git20150917.0854
@@ -1303,9 +1428,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client15ContrastManagerE@Base 4:5.4.1+git20150917.0854
  _ZTSN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client16ConnectionThreadE@Base 4:5.1.1+git20141128.0009
+ _ZTSN8KWayland6Client16OutputManagementE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTSN8KWayland6Client17DataDeviceManagerE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client17PlasmaWindowModelE@Base 4:5.3.95
  _ZTSN8KWayland6Client18PlasmaShellSurfaceE@Base 4:5.3.95
+ _ZTSN8KWayland6Client19OutputConfigurationE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTSN8KWayland6Client22PlasmaWindowManagementE@Base 4:5.3.95
  _ZTSN8KWayland6Client4BlurE@Base 4:5.4.1+git20150917.0854
  _ZTSN8KWayland6Client4DpmsE@Base 4:5.4.1+git20150917.0854
@@ -1335,6 +1462,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client11DpmsManagerE@Base 4:5.4.1+git20150917.0854
  _ZTVN8KWayland6Client11IdleTimeoutE@Base 4:5.3.95
  _ZTVN8KWayland6Client11PlasmaShellE@Base 4:5.3.95
+ _ZTVN8KWayland6Client12OutputDeviceE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTVN8KWayland6Client12PlasmaWindowE@Base 4:5.3.95
  _ZTVN8KWayland6Client12ShellSurfaceE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client12SlideManagerE@Base 4:5.4.1+git20150917.0854
@@ -1343,9 +1471,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client15ContrastManagerE@Base 4:5.4.1+git20150917.0854
  _ZTVN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client16ConnectionThreadE@Base 4:5.1.1+git20141128.0009
+ _ZTVN8KWayland6Client16OutputManagementE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTVN8KWayland6Client17DataDeviceManagerE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client17PlasmaWindowModelE@Base 4:5.3.95
  _ZTVN8KWayland6Client18PlasmaShellSurfaceE@Base 4:5.3.95
+ _ZTVN8KWayland6Client19OutputConfigurationE@Base 4:5.4.2+git20151109.2356+15.10
  _ZTVN8KWayland6Client22PlasmaWindowManagementE@Base 4:5.3.95
  _ZTVN8KWayland6Client4BlurE@Base 4:5.4.1+git20150917.0854
  _ZTVN8KWayland6Client4DpmsE@Base 4:5.4.1+git20150917.0854
@@ -1376,6 +1506,9 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  org_kde_kwin_fake_input_interface@Base 4:5.3.95
  org_kde_kwin_idle_interface@Base 4:5.3.95
  org_kde_kwin_idle_timeout_interface@Base 4:5.3.95
+ org_kde_kwin_outputconfiguration_interface@Base 4:5.4.2+git20151109.2356+15.10
+ org_kde_kwin_outputdevice_interface@Base 4:5.4.2+git20151109.2356+15.10
+ org_kde_kwin_outputmanagement_interface@Base 4:5.4.2+git20151109.2356+15.10
  org_kde_kwin_shadow_interface@Base 4:5.3.95
  org_kde_kwin_shadow_manager_interface@Base 4:5.3.95
  org_kde_kwin_slide_interface@Base 4:5.4.1+git20150917.0854
