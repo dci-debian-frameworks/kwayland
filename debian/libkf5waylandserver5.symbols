@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.2+git20151109.2356+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.3+git20151202.0927+16.04 amd64 i386
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13BlurInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Server13BlurInterface11qt_metacastEPKc@Base 4:5.4.1+git20150917.0854
@@ -241,6 +241,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server15OutputInterface7Private14updateGeometryEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface7Private3getEP11wl_resource@Base 4:5.4.1+git20150917.0854
  _ZN8KWayland6Server15OutputInterface7Private4bindEP9wl_clientjj@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server15OutputInterface7Private4castEP11wl_resource@Base 4:5.4.3+git20151202.0927+16.04
  _ZN8KWayland6Server15OutputInterface7Private6unbindEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface7Private8sendDoneERKNS2_12ResourceDataE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15OutputInterface7Private8sendModeEP11wl_resourceRKNS1_4ModeE@Base 4:5.1.1+git20141128.0009
@@ -323,6 +324,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16ClientConnection7PrivateC2EP9wl_clientPNS0_7DisplayEPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16ClientConnection7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16ClientConnection7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server16ClientConnection7destroyEv@Base 4:5.4.3+git20151202.0927+16.04
  _ZN8KWayland6Server16ClientConnection7displayEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16ClientConnectionC1EP9wl_clientPNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16ClientConnectionC2EP9wl_clientPNS0_7DisplayE@Base 4:5.1.1+git20141128.0009
@@ -680,6 +682,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21OutputDeviceInterface7Private14updateGeometryEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Server21OutputDeviceInterface7Private3getEP11wl_resource@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Server21OutputDeviceInterface7Private4bindEP9wl_clientjj@Base 4:5.4.2+git20151109.2356+15.10
+ _ZN8KWayland6Server21OutputDeviceInterface7Private4castEP11wl_resource@Base 4:5.4.3+git20151202.0927+16.04
  _ZN8KWayland6Server21OutputDeviceInterface7Private6unbindEP11wl_resource@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Server21OutputDeviceInterface7Private8sendDoneERKNS2_12ResourceDataE@Base 4:5.4.2+git20151109.2356+15.10
  _ZN8KWayland6Server21OutputDeviceInterface7Private8sendEdidEv@Base 4:5.4.2+git20151109.2356+15.10
