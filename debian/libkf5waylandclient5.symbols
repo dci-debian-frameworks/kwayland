@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.5.0 amd64
+# SymbolsHelper-Confirmed: 4:5.5.4 armel armhf hppa i386 mips mipsel powerpc x32
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -888,7 +888,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7ShmPoolD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7ShmPoolD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface10fromWindowEP7QWindow@Base 4:5.4.0
- _ZN8KWayland6Client7Surface11fromQtWinIdEy@Base 4:5.5.0
+ (subst)_ZN8KWayland6Client7Surface11fromQtWinIdE{quintptr}@Base 4:5.5.0
  _ZN8KWayland6Client7Surface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface11sizeChangedERK5QSize@Base 4:5.1.1+git20141128.0009

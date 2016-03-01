@@ -1,6 +1,7 @@
 kwayland (4:5.5.5-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.5.5).
+  * Update symbols files from buildds logs (4:5.5.4-1).
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:12:12 +0100
 
