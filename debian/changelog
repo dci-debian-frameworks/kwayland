@@ -9,6 +9,7 @@ kwayland (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * New upstream release
   * Refreshing symbols
+  * Removing missing
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:12:10 +0000
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.5.4+git20160226.0312+16.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.5.4+git20160304.0337+16.04 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -20,6 +20,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10CompositorD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10CompositorD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10CompositorcvP13wl_compositorEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice10dragMotionERK7QPointFj@Base 4:5.5.4+git20160304.0337+16.04
+ _ZN8KWayland6Client10DataDevice11dragEnteredEjRK7QPointF@Base 4:5.5.4+git20160304.0337+16.04
  _ZN8KWayland6Client10DataDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice12setSelectionEjPNS0_10DataSourceE@Base 4:5.1.1+git20141128.0009
@@ -37,12 +39,16 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10DataDevice7Private17dataOfferCallbackEPvP14wl_data_deviceP13wl_data_offer@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7Private17selectionCallbackEPvP14wl_data_deviceP13wl_data_offer@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7Private5setupEP14wl_data_device@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice7Private8dragLeftEv@Base 4:5.5.4+git20160304.0337+16.04
  _ZN8KWayland6Client10DataDevice7Private9dataOfferEP13wl_data_offer@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice7Private9dragEnterEjRK8QPointerINS0_7SurfaceEERK7QPointFP13wl_data_offer@Base 4:5.5.4+git20160304.0337+16.04
  _ZN8KWayland6Client10DataDevice7Private9selectionEP13wl_data_offer@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7PrivateC1EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7PrivateC2EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7destroyEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice7droppedEv@Base 4:5.5.4+git20160304.0337+16.04
  _ZN8KWayland6Client10DataDevice7releaseEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice8dragLeftEv@Base 4:5.5.4+git20160304.0337+16.04
  _ZN8KWayland6Client10DataDevice9startDragEjPNS0_10DataSourceEPNS0_7SurfaceES5_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDeviceC1EP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDeviceC2EP7QObject@Base 4:5.1.1+git20141128.0009
@@ -1145,8 +1151,10 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client10Compositor7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10CompositorcvP13wl_compositorEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataDevice10metaObjectEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client10DataDevice11dragSurfaceEv@Base 4:5.5.4+git20160304.0337+16.04
  _ZNK8KWayland6Client10DataDevice16offeredSelectionEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataDevice7isValidEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client10DataDevice9dragOfferEv@Base 4:5.5.4+git20160304.0337+16.04
  _ZNK8KWayland6Client10DataDevicecvP14wl_data_deviceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataSource10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataSource7isValidEv@Base 4:5.1.1+git20141128.0009
