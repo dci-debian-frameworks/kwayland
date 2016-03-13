@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.5.4+git20160304.0337+16.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.5.5+git20160313.0122+16.04 amd64 i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -603,6 +603,9 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client27ServerSideDecorationManager5setupEP38org_kde_kwin_server_decoration_manager@Base 4:5.5.4+git20160226.0312+16.04
  _ZN8KWayland6Client27ServerSideDecorationManager6createEP10wl_surfaceP7QObject@Base 4:5.5.4+git20160226.0312+16.04
  _ZN8KWayland6Client27ServerSideDecorationManager6createEPNS0_7SurfaceEP7QObject@Base 4:5.5.4+git20160226.0312+16.04
+ _ZN8KWayland6Client27ServerSideDecorationManager7Private10s_listenerE@Base 4:5.5.5+git20160313.0122+16.04
+ _ZN8KWayland6Client27ServerSideDecorationManager7Private19defaultModeCallbackEPvP38org_kde_kwin_server_decoration_managerj@Base 4:5.5.5+git20160313.0122+16.04
+ _ZN8KWayland6Client27ServerSideDecorationManager7Private5setupEP38org_kde_kwin_server_decoration_manager@Base 4:5.5.5+git20160313.0122+16.04
  _ZN8KWayland6Client27ServerSideDecorationManager7destroyEv@Base 4:5.5.4+git20160226.0312+16.04
  _ZN8KWayland6Client27ServerSideDecorationManager7releaseEv@Base 4:5.5.4+git20160226.0312+16.04
  _ZN8KWayland6Client27ServerSideDecorationManager7removedEv@Base 4:5.5.4+git20160226.0312+16.04
@@ -1272,6 +1275,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client19OutputConfiguration7isValidEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZNK8KWayland6Client19OutputConfigurationcvP32org_kde_kwin_outputconfigurationEv@Base 4:5.4.2+git20151109.2356+15.10
  _ZNK8KWayland6Client20ServerSideDecoration10metaObjectEv@Base 4:5.5.4+git20160226.0312+16.04
+ _ZNK8KWayland6Client20ServerSideDecoration11defaultModeEv@Base 4:5.5.5+git20160313.0122+16.04
  _ZNK8KWayland6Client20ServerSideDecoration4modeEv@Base 4:5.5.4+git20160226.0312+16.04
  _ZNK8KWayland6Client20ServerSideDecoration7isValidEv@Base 4:5.5.4+git20160226.0312+16.04
  _ZNK8KWayland6Client20ServerSideDecorationcvP30org_kde_kwin_server_decorationEv@Base 4:5.5.4+git20160226.0312+16.04
