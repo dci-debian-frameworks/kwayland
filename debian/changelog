@@ -1,3 +1,11 @@
+kwayland (4:5.6.2-1~1.gbp407287) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4072878635afe34151dd047f3b21a1fe43fe5178 **
+
+  * Update symbols files from buildds logs (4:5.5.4-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:49:20 +0200
+
 kwayland (4:5.5.4-1) experimental; urgency=medium
 
   * New upstream release (5.5.0).
