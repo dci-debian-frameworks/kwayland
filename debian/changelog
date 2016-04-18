@@ -1,4 +1,4 @@
-kwayland (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+kwayland (4:5.5.5-0ubuntu1) xenial; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream bugfix release
@@ -6,7 +6,7 @@ kwayland (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Refreshing symbols 
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:29:52 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 14 Apr 2016 13:44:16 -0700
 
 kwayland (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
