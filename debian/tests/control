@@ -2,7 +2,7 @@ Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus-x11,
          libpam-systemd, weston
-Restrictions: rw-build-tree
+Restrictions: build-needed
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
