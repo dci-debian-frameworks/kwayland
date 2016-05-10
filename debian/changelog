@@ -1,3 +1,11 @@
+kwayland (4:5.6.4-1~1.gbpa60ff5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a60ff57b8a6005c974ecba4f6f10588895a5eaac **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:48:35 +0200
+
 kwayland (4:5.6.3-1) experimental; urgency=medium
 
   [ Automatic packaging ]
