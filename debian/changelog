@@ -1,6 +1,6 @@
-kwayland (4:5.22.0-1~1.gbp87d88f) UNRELEASED; urgency=medium
+kwayland (4:5.22.0-1~2.gbpf2c969) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @87d88f22e2a9ceee6fabf3de6bc7ff60d99049ca **
+  ** SNAPSHOT build @f2c969e9deac9acc396f9583a47686eb18b431fb **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @a60ff57b8a6005c974ecba4f6f10588895a5eaac **
@@ -10,8 +10,9 @@ kwayland (4:5.22.0-1~1.gbp87d88f) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update watch file
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 01:25:00 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 10:54:11 +0200
 
 kwayland (4:5.6.3-1) experimental; urgency=medium
 
