@@ -1,18 +1,19 @@
-kwayland (4:5.22.0-1~2.gbpf2c969) UNRELEASED; urgency=medium
+kwayland (4:5.22.0-1~3.gbpe57b59) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f2c969e9deac9acc396f9583a47686eb18b431fb **
+  ** SNAPSHOT build @e57b592ccab5a75122c68a7034f9fe346d998198 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @a60ff57b8a6005c974ecba4f6f10588895a5eaac **
 
   * UNRELEASED
+  * Update Vcs uris
 
   [ Automatic packaging ]
   * Update watch file
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 10:54:11 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 16 May 2016 11:48:17 +0200
 
 kwayland (4:5.6.3-1) experimental; urgency=medium
 
