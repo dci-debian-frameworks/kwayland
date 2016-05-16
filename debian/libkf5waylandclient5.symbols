@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.6.2 amd64
+# SymbolsHelper-Confirmed: 4:5.22.0 amd64 armhf i386
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -20,6 +20,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10CompositorD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10CompositorD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10CompositorcvP13wl_compositorEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice10dragMotionERK7QPointFj@Base 4:5.22.0
+ _ZN8KWayland6Client10DataDevice11dragEnteredEjRK7QPointF@Base 4:5.22.0
  _ZN8KWayland6Client10DataDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice12setSelectionEjPNS0_10DataSourceE@Base 4:5.1.1+git20141128.0009
@@ -37,12 +39,16 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10DataDevice7Private17dataOfferCallbackEPvP14wl_data_deviceP13wl_data_offer@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7Private17selectionCallbackEPvP14wl_data_deviceP13wl_data_offer@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7Private5setupEP14wl_data_device@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice7Private8dragLeftEv@Base 4:5.22.0
  _ZN8KWayland6Client10DataDevice7Private9dataOfferEP13wl_data_offer@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice7Private9dragEnterEjRK8QPointerINS0_7SurfaceEERK7QPointFP13wl_data_offer@Base 4:5.22.0
  _ZN8KWayland6Client10DataDevice7Private9selectionEP13wl_data_offer@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7PrivateC1EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7PrivateC2EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDevice7destroyEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice7droppedEv@Base 4:5.22.0
  _ZN8KWayland6Client10DataDevice7releaseEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataDevice8dragLeftEv@Base 4:5.22.0
  _ZN8KWayland6Client10DataDevice9startDragEjPNS0_10DataSourceEPNS0_7SurfaceES5_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDeviceC1EP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataDeviceC2EP7QObject@Base 4:5.1.1+git20141128.0009
@@ -236,21 +242,28 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow11iconChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow11qt_metacastEPKc@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow11requestMoveEv@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow12appIdChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow12requestCloseEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow12titleChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow13activeChangedEv@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow13requestResizeEv@Base 4:5.22.0
+ _ZN8KWayland6Client12PlasmaWindow13shadedChangedEv@Base 4:5.22.0
+ _ZN8KWayland6Client12PlasmaWindow14movableChangedEv@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow15requestActivateEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow16closeableChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow16keepAboveChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow16keepBelowChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow16maximizedChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow16minimizedChangedEv@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow16resizableChangedEv@Base 4:5.22.0
+ _ZN8KWayland6Client12PlasmaWindow16shadeableChangedEv@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow16staticMetaObjectE@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow17fullscreenChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow18skipTaskbarChangedEv@Base 4:5.5.0
  _ZN8KWayland6Client12PlasmaWindow19maximizeableChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow19minimizeableChangedEv@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow19requestToggleShadedEv@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow20onAllDesktopsChangedEv@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow20setMinimizedGeometryEPNS0_7SurfaceERK5QRect@Base 4:5.5.0
  _ZN8KWayland6Client12PlasmaWindow21fullscreenableChangedEv@Base 4:5.4.0
@@ -260,12 +273,16 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow22requestToggleMinimizedEv@Base 4:5.5.0
  _ZN8KWayland6Client12PlasmaWindow22unsetMinimizedGeometryEPNS0_7SurfaceE@Base 4:5.5.0
  _ZN8KWayland6Client12PlasmaWindow23demandsAttentionChangedEv@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow31virtualDesktopChangeableChangedEv@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow7Private10s_listenerE@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow7Private10setMovableEb@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow7Private12setCloseableEb@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private12setKeepAboveEb@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private12setKeepBelowEb@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private12setMaximizedEb@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private12setMinimizedEb@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow7Private12setResizableEb@Base 4:5.22.0
+ _ZN8KWayland6Client12PlasmaWindow7Private12setShadeableEb@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow7Private13setFullscreenEb@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private14setSkipTaskbarEb@Base 4:5.5.0
  _ZN8KWayland6Client12PlasmaWindow7Private15setMaximizeableEb@Base 4:5.4.0
@@ -277,9 +294,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow7Private20appIdChangedCallbackEPvP21org_kde_plasma_windowPKc@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private20stateChangedCallbackEPvP21org_kde_plasma_windowj@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private20titleChangedCallbackEPvP21org_kde_plasma_windowPKc@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow7Private27setVirtualDesktopChangeableEb@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow7Private29themedIconNameChangedCallbackEPvP21org_kde_plasma_windowPKc@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private29virtualDesktopChangedCallbackEPvP21org_kde_plasma_windowi@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private9setActiveEb@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow7Private9setShadedEb@Base 4:5.22.0
  _ZN8KWayland6Client12PlasmaWindow7PrivateC1EP21org_kde_plasma_windowjPS1_@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7PrivateC2EP21org_kde_plasma_windowjPS1_@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7destroyEv@Base 4:5.4.0
@@ -472,9 +491,12 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client17DataDeviceManagercvP22wl_data_device_managerEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client17PlasmaWindowModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.0
  _ZN8KWayland6Client17PlasmaWindowModel11qt_metacastEPKc@Base 4:5.4.0
+ _ZN8KWayland6Client17PlasmaWindowModel11requestMoveEi@Base 4:5.22.0
  _ZN8KWayland6Client17PlasmaWindowModel12requestCloseEi@Base 4:5.4.0
+ _ZN8KWayland6Client17PlasmaWindowModel13requestResizeEi@Base 4:5.22.0
  _ZN8KWayland6Client17PlasmaWindowModel15requestActivateEi@Base 4:5.4.0
  _ZN8KWayland6Client17PlasmaWindowModel16staticMetaObjectE@Base 4:5.4.0
+ _ZN8KWayland6Client17PlasmaWindowModel19requestToggleShadedEi@Base 4:5.22.0
  _ZN8KWayland6Client17PlasmaWindowModel20setMinimizedGeometryEiPNS0_7SurfaceERK5QRect@Base 4:5.5.0
  _ZN8KWayland6Client17PlasmaWindowModel21requestVirtualDesktopEij@Base 4:5.4.0
  _ZN8KWayland6Client17PlasmaWindowModel22requestToggleMaximizedEi@Base 4:5.5.0
@@ -955,6 +977,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7Surface7destroyEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7releaseEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7setSizeERK5QSize@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Surface8setScaleEi@Base 4:5.22.0
  _ZN8KWayland6Client7SurfaceC1EP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7SurfaceC2EP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7SurfaceD0Ev@Base 4:5.1.1+git20141128.0009
@@ -1148,8 +1171,10 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client10Compositor7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10CompositorcvP13wl_compositorEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataDevice10metaObjectEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client10DataDevice11dragSurfaceEv@Base 4:5.22.0
  _ZNK8KWayland6Client10DataDevice16offeredSelectionEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataDevice7isValidEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client10DataDevice9dragOfferEv@Base 4:5.22.0
  _ZNK8KWayland6Client10DataDevicecvP14wl_data_deviceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataSource10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataSource7isValidEv@Base 4:5.1.1+git20141128.0009
@@ -1211,6 +1236,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client12PlasmaWindow11isKeepBelowEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow11isMaximizedEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow11isMinimizedEv@Base 4:5.4.0
+ _ZNK8KWayland6Client12PlasmaWindow11isResizableEv@Base 4:5.22.0
+ _ZNK8KWayland6Client12PlasmaWindow11isShadeableEv@Base 4:5.22.0
  _ZNK8KWayland6Client12PlasmaWindow11skipTaskbarEv@Base 4:5.5.0
  _ZNK8KWayland6Client12PlasmaWindow12isFullscreenEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow14isMaximizeableEv@Base 4:5.4.0
@@ -1219,11 +1246,14 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client12PlasmaWindow15isOnAllDesktopsEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow16isFullscreenableEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow20isDemandingAttentionEv@Base 4:5.4.0
+ _ZNK8KWayland6Client12PlasmaWindow26isVirtualDesktopChangeableEv@Base 4:5.22.0
  _ZNK8KWayland6Client12PlasmaWindow4iconEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow5appIdEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow5titleEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow7isValidEv@Base 4:5.4.0
  _ZNK8KWayland6Client12PlasmaWindow8isActiveEv@Base 4:5.4.0
+ _ZNK8KWayland6Client12PlasmaWindow8isShadedEv@Base 4:5.22.0
+ _ZNK8KWayland6Client12PlasmaWindow9isMovableEv@Base 4:5.22.0
  _ZNK8KWayland6Client12PlasmaWindowcvP21org_kde_plasma_windowEv@Base 4:5.4.0
  _ZNK8KWayland6Client12ShellSurface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client12ShellSurface4sizeEv@Base 4:5.1.1+git20141128.0009
@@ -1350,6 +1380,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client7Surface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client7Surface2idEv@Base 4:5.4.0
  _ZNK8KWayland6Client7Surface4sizeEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client7Surface5scaleEv@Base 4:5.22.0
  _ZNK8KWayland6Client7Surface7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client7SurfacecvP10wl_surfaceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Contrast10metaObjectEv@Base 4:5.5.0
