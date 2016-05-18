@@ -1,7 +1,7 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus-x11,
-         libpam-systemd, weston
+         libpam-systemd, weston, qtwayland5
 Restrictions: rw-build-tree
 
 Tests: acc
