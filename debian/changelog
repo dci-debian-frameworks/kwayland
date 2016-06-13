@@ -1,10 +1,11 @@
-kwayland (4:5.23.0-1~1.gbp48c6b9) UNRELEASED; urgency=medium
+kwayland (4:5.23.0-1~2.gbp843646) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @48c6b9296a402a1511b2b77c89d191068cae9ae5 **
+  ** SNAPSHOT build @8436463823d3f714538e6f503a7086b64f87319a **
 
   * Update build-deps and deps with the info from cmake
+  * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 19:48:25 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 20:06:27 +0200
 
 kwayland (4:5.22.0-1) unstable; urgency=medium
 
