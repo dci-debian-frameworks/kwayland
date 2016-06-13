@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.22.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:5.23.0 amd64
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -292,6 +292,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12PlasmaWindow7Private17setFullscreenableEb@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private19setDemandsAttentionEb@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private20appIdChangedCallbackEPvP21org_kde_plasma_windowPKc@Base 4:5.4.0
+ _ZN8KWayland6Client12PlasmaWindow7Private20initialStateCallbackEPvP21org_kde_plasma_window@Base 4:5.23.0
  _ZN8KWayland6Client12PlasmaWindow7Private20stateChangedCallbackEPvP21org_kde_plasma_windowj@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private20titleChangedCallbackEPvP21org_kde_plasma_windowPKc@Base 4:5.4.0
  _ZN8KWayland6Client12PlasmaWindow7Private27setVirtualDesktopChangeableEb@Base 4:5.22.0
@@ -433,6 +434,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client16ConnectionThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread11setSocketFdEi@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client16ConnectionThread13errorOccurredEv@Base 4:5.23.0
  _ZN8KWayland6Client16ConnectionThread13setSocketNameERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread14connectionDiedEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread14initConnectionEv@Base 4:5.1.1+git20141128.0009
@@ -472,6 +474,24 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client16OutputManagementD1Ev@Base 4:5.5.0
  _ZN8KWayland6Client16OutputManagementD2Ev@Base 4:5.5.0
  _ZN8KWayland6Client16OutputManagementcvP29org_kde_kwin_outputmanagementEv@Base 4:5.5.0
+ _ZN8KWayland6Client16TextInputManager10eventQueueEv@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager11qt_metacastEPKc@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager13setEventQueueEPNS0_10EventQueueE@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager15createTextInputEPNS0_4SeatEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager16staticMetaObjectE@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager5setupEP21wl_text_input_manager@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager5setupEP25zwp_text_input_manager_v2@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager7destroyEv@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager7releaseEv@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManager7removedEv@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManagerC1EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManagerC2EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManagerD0Ev@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManagerD1Ev@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManagerD2Ev@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManagercvP21wl_text_input_managerEv@Base 4:5.23.0
+ _ZN8KWayland6Client16TextInputManagercvP25zwp_text_input_manager_v2Ev@Base 4:5.23.0
  _ZN8KWayland6Client17DataDeviceManager10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client17DataDeviceManager11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
@@ -1086,6 +1106,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry21createFullscreenShellEjjP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry21outputDeviceAnnouncedEjj@Base 4:5.5.0
  _ZN8KWayland6Client8Registry22createOutputManagementEjjP7QObject@Base 4:5.5.0
+ _ZN8KWayland6Client8Registry22createTextInputManagerEjjP7QObject@Base 4:5.23.0
  _ZN8KWayland6Client8Registry22fullscreenShellRemovedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry22subCompositorAnnouncedEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry23createDataDeviceManagerEjjP7QObject@Base 4:5.1.1+git20141128.0009
@@ -1098,7 +1119,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry29plasmaWindowManagementRemovedEj@Base 4:5.4.0
  _ZN8KWayland6Client8Registry31plasmaWindowManagementAnnouncedEjj@Base 4:5.4.0
  _ZN8KWayland6Client8Registry33createServerSideDecorationManagerEjjP7QObject@Base 4:5.6.2
+ _ZN8KWayland6Client8Registry33textInputManagerUnstableV0RemovedEj@Base 4:5.23.0
+ _ZN8KWayland6Client8Registry33textInputManagerUnstableV2RemovedEj@Base 4:5.23.0
  _ZN8KWayland6Client8Registry34serverSideDecorationManagerRemovedEj@Base 4:5.6.2
+ _ZN8KWayland6Client8Registry35textInputManagerUnstableV0AnnouncedEjj@Base 4:5.23.0
+ _ZN8KWayland6Client8Registry35textInputManagerUnstableV2AnnouncedEjj@Base 4:5.23.0
  _ZN8KWayland6Client8Registry36serverSideDecorationManagerAnnouncedEjj@Base 4:5.6.2
  _ZN8KWayland6Client8Registry5setupEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry6createEP10wl_display@Base 4:5.1.1+git20141128.0009
@@ -1147,9 +1172,14 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client9FakeInput11qt_metacastEPKc@Base 4:5.4.0
  _ZN8KWayland6Client9FakeInput12authenticateERK7QStringS4_@Base 4:5.4.0
  _ZN8KWayland6Client9FakeInput13setEventQueueEPNS0_10EventQueueE@Base 4:5.4.0
+ _ZN8KWayland6Client9FakeInput14requestTouchUpEj@Base 4:5.23.0
+ _ZN8KWayland6Client9FakeInput16requestTouchDownEjRK7QPointF@Base 4:5.23.0
  _ZN8KWayland6Client9FakeInput16staticMetaObjectE@Base 4:5.4.0
+ _ZN8KWayland6Client9FakeInput17requestTouchFrameEv@Base 4:5.23.0
  _ZN8KWayland6Client9FakeInput18requestPointerAxisEN2Qt11OrientationEd@Base 4:5.4.0
  _ZN8KWayland6Client9FakeInput18requestPointerMoveERK6QSizeF@Base 4:5.4.0
+ _ZN8KWayland6Client9FakeInput18requestTouchCancelEv@Base 4:5.23.0
+ _ZN8KWayland6Client9FakeInput18requestTouchMotionEjRK7QPointF@Base 4:5.23.0
  _ZN8KWayland6Client9FakeInput25requestPointerButtonClickEN2Qt11MouseButtonE@Base 4:5.4.0
  _ZN8KWayland6Client9FakeInput25requestPointerButtonClickEj@Base 4:5.4.0
  _ZN8KWayland6Client9FakeInput25requestPointerButtonPressEN2Qt11MouseButtonE@Base 4:5.4.0
@@ -1167,6 +1197,34 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client9FakeInputD1Ev@Base 4:5.4.0
  _ZN8KWayland6Client9FakeInputD2Ev@Base 4:5.4.0
  _ZN8KWayland6Client9FakeInputcvP23org_kde_kwin_fake_inputEv@Base 4:5.4.0
+ _ZN8KWayland6Client9TextInput11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput11qt_metacastEPKc@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput13setEventQueueEPNS0_10EventQueueE@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput14hideInputPanelEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput14setContentTypeE6QFlagsINS1_11ContentHintEENS1_14ContentPurposeE@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput14showInputPanelEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput15languageChangedEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput16staticMetaObjectE@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput18setCursorRectangleERK5QRect@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput18setSurroundingTextERK7QStringjj@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput20composingTextChangedEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput20setPreferredLanguageERK7QString@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput20textDirectionChangedEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput22inputPanelStateChangedEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput4leftEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput5resetEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput6enableEPNS0_7SurfaceE@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput7PrivateC1EPNS0_4SeatE@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput7PrivateC2EPNS0_4SeatE@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput7disableEPNS0_7SurfaceE@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput7enteredEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput8keyEventEjNS1_8KeyStateE6QFlagsIN2Qt16KeyboardModifierEEj@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInput9committedEv@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInputC1EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInputC2EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInputD0Ev@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInputD1Ev@Base 4:5.23.0
+ _ZN8KWayland6Client9TextInputD2Ev@Base 4:5.23.0
  _ZNK8KWayland6Client10Compositor10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10Compositor7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10CompositorcvP13wl_compositorEv@Base 4:5.1.1+git20141128.0009
@@ -1278,9 +1336,15 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client15FullscreenShell7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client16ConnectionThread10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client16ConnectionThread10socketNameEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client16ConnectionThread8hasErrorEv@Base 4:5.23.0
+ _ZNK8KWayland6Client16ConnectionThread9errorCodeEv@Base 4:5.23.0
  _ZNK8KWayland6Client16OutputManagement10metaObjectEv@Base 4:5.5.0
  _ZNK8KWayland6Client16OutputManagement7isValidEv@Base 4:5.5.0
  _ZNK8KWayland6Client16OutputManagementcvP29org_kde_kwin_outputmanagementEv@Base 4:5.5.0
+ _ZNK8KWayland6Client16TextInputManager10metaObjectEv@Base 4:5.23.0
+ _ZNK8KWayland6Client16TextInputManager7isValidEv@Base 4:5.23.0
+ _ZNK8KWayland6Client16TextInputManagercvP21wl_text_input_managerEv@Base 4:5.23.0
+ _ZNK8KWayland6Client16TextInputManagercvP25zwp_text_input_manager_v2Ev@Base 4:5.23.0
  _ZNK8KWayland6Client17DataDeviceManager10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client17DataDeviceManager7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client17DataDeviceManagercvP22wl_data_device_managerEv@Base 4:5.1.1+git20141128.0009
@@ -1411,19 +1475,24 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client8Registry20bindOutputManagementEjj@Base 4:5.5.0
  _ZNK8KWayland6Client8Registry21bindDataDeviceManagerEjj@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Registry26bindPlasmaWindowManagementEjj@Base 4:5.4.0
+ _ZNK8KWayland6Client8Registry30bindTextInputManagerUnstableV0Ejj@Base 4:5.23.0
+ _ZNK8KWayland6Client8Registry30bindTextInputManagerUnstableV2Ejj@Base 4:5.23.0
  _ZNK8KWayland6Client8Registry31bindServerSideDecorationManagerEjj@Base 4:5.6.2
  _ZNK8KWayland6Client8Registry7Private10interfacesENS1_9InterfaceE@Base 4:5.5.0
  _ZNK8KWayland6Client8Registry7Private12hasInterfaceENS1_9InterfaceE@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client8Registry7Private16interfaceForNameEj@Base 4:5.23.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI13wl_compositorEEPT_NS1_9InterfaceEjj@Base 4:5.1.1+git20141128.0009
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI16wl_subcompositorEEPT_NS1_9InterfaceEjj@Base 4:5.1.1+git20141128.0009
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI17org_kde_kwin_idleEEPT_NS1_9InterfaceEjj@Base 4:5.4.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI20_wl_fullscreen_shellEEPT_NS1_9InterfaceEjj@Base 4:5.1.1+git20141128.0009
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI20org_kde_plasma_shellEEPT_NS1_9InterfaceEjj@Base 4:5.4.0
+ (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI21wl_text_input_managerEEPT_NS1_9InterfaceEjj@Base 4:5.23.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI22wl_data_device_managerEEPT_NS1_9InterfaceEjj@Base 4:5.1.1+git20141128.0009
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI23org_kde_kwin_fake_inputEEPT_NS1_9InterfaceEjj@Base 4:5.4.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI25org_kde_kwin_blur_managerEEPT_NS1_9InterfaceEjj@Base 4:5.5.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI25org_kde_kwin_dpms_managerEEPT_NS1_9InterfaceEjj@Base 4:5.5.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI25org_kde_kwin_outputdeviceEEPT_NS1_9InterfaceEjj@Base 4:5.5.0
+ (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI25zwp_text_input_manager_v2EEPT_NS1_9InterfaceEjj@Base 4:5.23.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI26org_kde_kwin_slide_managerEEPT_NS1_9InterfaceEjj@Base 4:5.5.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI27org_kde_kwin_shadow_managerEEPT_NS1_9InterfaceEjj@Base 4:5.4.0
  (optional=templinst)_ZNK8KWayland6Client8Registry7Private4bindI29org_kde_kwin_contrast_managerEEPT_NS1_9InterfaceEjj@Base 4:5.5.0
@@ -1449,6 +1518,20 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client9FakeInput10metaObjectEv@Base 4:5.4.0
  _ZNK8KWayland6Client9FakeInput7isValidEv@Base 4:5.4.0
  _ZNK8KWayland6Client9FakeInputcvP23org_kde_kwin_fake_inputEv@Base 4:5.4.0
+ _ZNK8KWayland6Client9TextInput10commitTextEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput10eventQueueEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput10metaObjectEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput13composingTextEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput13textDirectionEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput14anchorPositionEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput14cursorPositionEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput14enteredSurfaceEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput19isInputPanelVisibleEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput21composingFallbackTextEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput21deleteSurroundingTextEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput27composingTextCursorPositionEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput7isValidEv@Base 4:5.23.0
+ _ZNK8KWayland6Client9TextInput8languageEv@Base 4:5.23.0
  _ZTIN8KWayland6Client10CompositorE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client10DataDeviceE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client10DataSourceE@Base 4:5.1.1+git20141128.0009
@@ -1469,6 +1552,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client16ConnectionThreadE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client16OutputManagementE@Base 4:5.5.0
+ _ZTIN8KWayland6Client16TextInputManager7PrivateE@Base 4:5.23.0
+ _ZTIN8KWayland6Client16TextInputManagerE@Base 4:5.23.0
  _ZTIN8KWayland6Client17DataDeviceManagerE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client17PlasmaWindowModelE@Base 4:5.4.0
  _ZTIN8KWayland6Client18PlasmaShellSurfaceE@Base 4:5.4.0
@@ -1494,6 +1579,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client8RegistryE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client9DataOfferE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client9FakeInputE@Base 4:5.4.0
+ _ZTIN8KWayland6Client9TextInput7PrivateE@Base 4:5.23.0
+ _ZTIN8KWayland6Client9TextInputE@Base 4:5.23.0
  _ZTSN8KWayland6Client10CompositorE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client10DataDeviceE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client10DataSourceE@Base 4:5.1.1+git20141128.0009
@@ -1514,6 +1601,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client16ConnectionThreadE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client16OutputManagementE@Base 4:5.5.0
+ _ZTSN8KWayland6Client16TextInputManager7PrivateE@Base 4:5.23.0
+ _ZTSN8KWayland6Client16TextInputManagerE@Base 4:5.23.0
  _ZTSN8KWayland6Client17DataDeviceManagerE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client17PlasmaWindowModelE@Base 4:5.4.0
  _ZTSN8KWayland6Client18PlasmaShellSurfaceE@Base 4:5.4.0
@@ -1539,6 +1628,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client8RegistryE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client9DataOfferE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client9FakeInputE@Base 4:5.4.0
+ _ZTSN8KWayland6Client9TextInput7PrivateE@Base 4:5.23.0
+ _ZTSN8KWayland6Client9TextInputE@Base 4:5.23.0
  _ZTVN8KWayland6Client10CompositorE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client10DataDeviceE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client10DataSourceE@Base 4:5.1.1+git20141128.0009
@@ -1559,6 +1650,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client16ConnectionThreadE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client16OutputManagementE@Base 4:5.5.0
+ _ZTVN8KWayland6Client16TextInputManagerE@Base 4:5.23.0
  _ZTVN8KWayland6Client17DataDeviceManagerE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client17PlasmaWindowModelE@Base 4:5.4.0
  _ZTVN8KWayland6Client18PlasmaShellSurfaceE@Base 4:5.4.0
@@ -1584,6 +1676,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client8RegistryE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client9DataOfferE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client9FakeInputE@Base 4:5.4.0
+ _ZTVN8KWayland6Client9TextInput7PrivateE@Base 4:5.23.0
+ _ZTVN8KWayland6Client9TextInputE@Base 4:5.23.0
  _wl_fullscreen_shell_interface@Base 4:5.1.1+git20141128.0009
  _wl_fullscreen_shell_mode_feedback_interface@Base 4:5.1.1+git20141128.0009
  org_kde_kwin_blur_interface@Base 4:5.5.0
@@ -1608,3 +1702,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  org_kde_plasma_surface_interface@Base 4:5.4.0
  org_kde_plasma_window_interface@Base 4:5.4.0
  org_kde_plasma_window_management_interface@Base 4:5.4.0
+ wl_text_input_interface@Base 4:5.23.0
+ wl_text_input_manager_interface@Base 4:5.23.0
+ zwp_text_input_manager_v2_interface@Base 4:5.23.0
+ zwp_text_input_v2_interface@Base 4:5.23.0

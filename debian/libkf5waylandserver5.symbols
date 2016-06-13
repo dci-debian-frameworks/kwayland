@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.22.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:5.23.0 amd64
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13BlurInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface11qt_metacastEPKc@Base 4:5.5.0
@@ -6,7 +6,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13BlurInterface6regionEv@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface7Private11s_interfaceE@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface7Private14commitCallbackEP9wl_clientP11wl_resource@Base 4:5.5.0
- _ZN8KWayland6Server13BlurInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface7Private17setRegionCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface7Private6commitEv@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface7PrivateC1EPS1_PNS0_20BlurManagerInterfaceEP11wl_resource@Base 4:5.5.0
@@ -67,10 +66,12 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface21pointerButtonReleasedEN2Qt11MouseButtonE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface21pointerButtonReleasedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface22setFocusedTouchSurfaceEPNS0_16SurfaceInterfaceERK7QPointF@Base 4:5.2.2+git20150326.0109+15.04
+ _ZN8KWayland6Server13SeatInterface23focusedTextInputChangedEv@Base 4:5.23.0
  _ZN8KWayland6Server13SeatInterface23updateKeyboardModifiersEjjjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface24setFocusedPointerSurfaceEPNS0_16SurfaceInterfaceERK10QMatrix4x4@Base 4:5.6.2
  _ZN8KWayland6Server13SeatInterface24setFocusedPointerSurfaceEPNS0_16SurfaceInterfaceERK7QPointF@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface25setFocusedKeyboardSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server13SeatInterface26setFocusedTextInputSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.23.0
  _ZN8KWayland6Server13SeatInterface30setFocusedTouchSurfacePositionERK7QPointF@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server13SeatInterface32setFocusedPointerSurfacePositionERK7QPointF@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface38setFocusedPointerSurfaceTransformationERK10QMatrix4x4@Base 4:5.6.2
@@ -83,6 +84,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface7Private16getTouchCallbackEP9wl_clientP11wl_resourcej@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7Private16s_pointerVersionE@Base 4:5.5.0
  _ZN8KWayland6Server13SeatInterface7Private16sendCapabilitiesEP11wl_resource@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server13SeatInterface7Private17registerTextInputEPNS0_18TextInputInterfaceE@Base 4:5.23.0
  _ZN8KWayland6Server13SeatInterface7Private17s_keyboardVersionE@Base 4:5.5.0
  _ZN8KWayland6Server13SeatInterface7Private18getPointerCallbackEP9wl_clientP11wl_resourcej@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface7Private18registerDataDeviceEPNS0_19DataDeviceInterfaceE@Base 4:5.1.1+git20141128.0009
@@ -131,7 +133,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server14SlideInterface16staticMetaObjectE@Base 4:5.5.0
  _ZN8KWayland6Server14SlideInterface7Private11s_interfaceE@Base 4:5.5.0
  _ZN8KWayland6Server14SlideInterface7Private14commitCallbackEP9wl_clientP11wl_resource@Base 4:5.5.0
- _ZN8KWayland6Server14SlideInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.5.0
  _ZN8KWayland6Server14SlideInterface7Private17setOffsetCallbackEP9wl_clientP11wl_resourcei@Base 4:5.5.0
  _ZN8KWayland6Server14SlideInterface7Private19setLocationCallbackEP9wl_clientP11wl_resourcej@Base 4:5.5.0
  _ZN8KWayland6Server14SlideInterface7PrivateC1EPS1_PNS0_21SlideManagerInterfaceEP11wl_resource@Base 4:5.5.0
@@ -192,8 +193,13 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server15FakeInputDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.0
  _ZN8KWayland6Server15FakeInputDevice11qt_metacastEPKc@Base 4:5.4.0
  _ZN8KWayland6Server15FakeInputDevice16staticMetaObjectE@Base 4:5.4.0
+ _ZN8KWayland6Server15FakeInputDevice16touchUpRequestedEj@Base 4:5.23.0
  _ZN8KWayland6Server15FakeInputDevice17setAuthenticationEb@Base 4:5.4.0
+ _ZN8KWayland6Server15FakeInputDevice18touchDownRequestedEjRK7QPointF@Base 4:5.23.0
+ _ZN8KWayland6Server15FakeInputDevice19touchFrameRequestedEv@Base 4:5.23.0
  _ZN8KWayland6Server15FakeInputDevice20pointerAxisRequestedEN2Qt11OrientationEd@Base 4:5.4.0
+ _ZN8KWayland6Server15FakeInputDevice20touchCancelRequestedEv@Base 4:5.23.0
+ _ZN8KWayland6Server15FakeInputDevice20touchMotionRequestedEjRK7QPointF@Base 4:5.23.0
  _ZN8KWayland6Server15FakeInputDevice22pointerMotionRequestedERK6QSizeF@Base 4:5.4.0
  _ZN8KWayland6Server15FakeInputDevice23authenticationRequestedERK7QStringS4_@Base 4:5.4.0
  _ZN8KWayland6Server15FakeInputDevice27pointerButtonPressRequestedEj@Base 4:5.4.0
@@ -276,7 +282,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server15RegionInterface3getEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15RegionInterface7Private11addCallbackEP9wl_clientP11wl_resourceiiii@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15RegionInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server15RegionInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15RegionInterface7Private16subtractCallbackEP9wl_clientP11wl_resourceiiii@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15RegionInterface7Private3addERK5QRect@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server15RegionInterface7Private8subtractERK5QRect@Base 4:5.1.1+git20141128.0009
@@ -392,7 +397,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16SurfaceInterface7Private14commitCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private14damageCallbackEP9wl_clientP11wl_resourceiiii@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private14frameCallabackEP9wl_clientP11wl_resourcej@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server16SurfaceInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private16addFrameCallbackEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface7Private16commitSubSurfaceEv@Base 4:5.22.0
  _ZN8KWayland6Server16SurfaceInterface7Private19bufferScaleCallbackEP9wl_clientP11wl_resourcei@Base 4:5.1.1+git20141128.0009
@@ -428,7 +432,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server17ContrastInterface16staticMetaObjectE@Base 4:5.5.0
  _ZN8KWayland6Server17ContrastInterface7Private11s_interfaceE@Base 4:5.5.0
  _ZN8KWayland6Server17ContrastInterface7Private14commitCallbackEP9wl_clientP11wl_resource@Base 4:5.5.0
- _ZN8KWayland6Server17ContrastInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.5.0
  _ZN8KWayland6Server17ContrastInterface7Private17setRegionCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.5.0
  _ZN8KWayland6Server17ContrastInterface7Private19setContrastCallbackEP9wl_clientP11wl_resourcei@Base 4:5.5.0
  _ZN8KWayland6Server17ContrastInterface7Private20setIntensityCallbackEP9wl_clientP11wl_resourcei@Base 4:5.5.0
@@ -475,7 +478,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server18DataOfferInterface16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server18DataOfferInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server18DataOfferInterface7Private14acceptCallbackEP9wl_clientP11wl_resourcejPKc@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server18DataOfferInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server18DataOfferInterface7Private15receiveCallbackEP9wl_clientP11wl_resourcePKci@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server18DataOfferInterface7Private7receiveERK7QStringi@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server18DataOfferInterface7PrivateC1EPNS0_19DataSourceInterfaceEPNS0_19DataDeviceInterfaceEPS1_P11wl_resource@Base 4:5.1.1+git20141128.0009
@@ -495,11 +497,17 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server18FakeInputInterface7Private11s_interfaceE@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterface7Private12axisCallbackEP9wl_clientP11wl_resourceji@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterface7Private14buttonCallbackEP9wl_clientP11wl_resourcejj@Base 4:5.4.0
+ _ZN8KWayland6Server18FakeInputInterface7Private15touchUpCallbackEP9wl_clientP11wl_resourcej@Base 4:5.23.0
+ _ZN8KWayland6Server18FakeInputInterface7Private17touchDownCallbackEP9wl_clientP11wl_resourcejii@Base 4:5.23.0
+ _ZN8KWayland6Server18FakeInputInterface7Private18touchFrameCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
+ _ZN8KWayland6Server18FakeInputInterface7Private19touchCancelCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
+ _ZN8KWayland6Server18FakeInputInterface7Private19touchMotionCallbackEP9wl_clientP11wl_resourcejii@Base 4:5.23.0
  _ZN8KWayland6Server18FakeInputInterface7Private20authenticateCallbackEP9wl_clientP11wl_resourcePKcS8_@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterface7Private21pointerMotionCallbackEP9wl_clientP11wl_resourceii@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterface7Private4bindEP9wl_clientjj@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterface7Private6deviceEP11wl_resource@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterface7Private6unbindEP11wl_resource@Base 4:5.4.0
+ _ZN8KWayland6Server18FakeInputInterface7Private8touchIdsE@Base 4:5.23.0
  _ZN8KWayland6Server18FakeInputInterface7Private9s_versionE@Base 4:5.5.0
  _ZN8KWayland6Server18FakeInputInterface7PrivateC1EPS1_PNS0_7DisplayE@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterface7PrivateC2EPS1_PNS0_7DisplayE@Base 4:5.4.0
@@ -508,6 +516,51 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server18FakeInputInterfaceD0Ev@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterfaceD1Ev@Base 4:5.4.0
  _ZN8KWayland6Server18FakeInputInterfaceD2Ev@Base 4:5.4.0
+ _ZN8KWayland6Server18TextInputInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface11qt_metacastEPKc@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface11setLanguageERK10QByteArray@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface12requestResetEv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface13keysymPressedEj6QFlagsIN2Qt16KeyboardModifierEE@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface14enabledChangedEv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface14keysymReleasedEj6QFlagsIN2Qt16KeyboardModifierEE@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface16setPreEditCursorEi@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface16setTextDirectionEN2Qt15LayoutDirectionE@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface16staticMetaObjectE@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface17setCursorPositionEii@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface18contentTypeChangedEv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface18setInputPanelStateEbRK5QRect@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface21deleteSurroundingTextEjj@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface21requestHideInputPanelEv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface21requestShowInputPanelEv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface22cursorRectangleChangedERK5QRect@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface22surroundingTextChangedEv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface24preferredLanguageChangedERK10QByteArray@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface6commitERK10QByteArray@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private13resetCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private14enableCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private15disableCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private16activateCallbackEP9wl_clientP11wl_resourceS6_S6_@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private18deactivateCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private19commitStateCallbackEP9wl_clientP11wl_resourcej@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private20invokeActionCallbackEP9wl_clientP11wl_resourcejj@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private22hideInputPanelCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private22setContentTypeCallbackEP9wl_clientP11wl_resourcejj@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private22showInputPanelCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private26setCursorRectangleCallbackEP9wl_clientP11wl_resourceiiii@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private26setSurroundingTextCallbackEP9wl_clientP11wl_resourcePKcjj@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private27setSurroundingText2CallbackEP9wl_clientP11wl_resourcePKcii@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7Private28setPreferredLanguageCallbackEP9wl_clientP11wl_resourcePKc@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7PrivateC1EPS1_PNS0_6GlobalEP11wl_resourcePK12wl_interfacePKv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7PrivateC2EPS1_PNS0_6GlobalEP11wl_resourcePK12wl_interfacePKv@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7PrivateD0Ev@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7PrivateD1Ev@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7PrivateD2Ev@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterface7preEditERK10QByteArrayS4_@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterfaceC1EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterfaceC2EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterfaceD0Ev@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterfaceD1Ev@Base 4:5.23.0
+ _ZN8KWayland6Server18TextInputInterfaceD2Ev@Base 4:5.23.0
  _ZN8KWayland6Server19CompositorInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19CompositorInterface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19CompositorInterface13regionCreatedEPNS0_15RegionInterfaceE@Base 4:5.1.1+git20141128.0009
@@ -541,7 +594,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server19DataDeviceInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataDeviceInterface7Private12setSelectionEPNS0_19DataSourceInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataDeviceInterface7Private15createDataOfferEPNS0_19DataSourceInterfaceE@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server19DataDeviceInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.5.0
  _ZN8KWayland6Server19DataDeviceInterface7Private17startDragCallbackEP9wl_clientP11wl_resourceS6_S6_S6_j@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataDeviceInterface7Private20setSelectionCallbackEP9wl_clientP11wl_resourceS6_j@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataDeviceInterface7Private9startDragEPNS0_19DataSourceInterfaceEPNS0_16SurfaceInterfaceES6_j@Base 4:5.6.2
@@ -565,7 +617,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server19DataSourceInterface6cancelEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataSourceInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataSourceInterface7Private13offerCallbackEP9wl_clientP11wl_resourcePKc@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server19DataSourceInterface7Private14destroyCallackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataSourceInterface7Private5offerERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataSourceInterface7PrivateC1EPS1_PNS0_26DataDeviceManagerInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19DataSourceInterface7PrivateC2EPS1_PNS0_26DataDeviceManagerInterfaceEP11wl_resource@Base 4:5.1.1+git20141128.0009
@@ -587,7 +638,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server19SubSurfaceInterface7Private10placeBelowEPNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19SubSurfaceInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19SubSurfaceInterface7Private11setPositionERK6QPoint@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server19SubSurfaceInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19SubSurfaceInterface7Private15setSyncCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19SubSurfaceInterface7Private17setDeSyncCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server19SubSurfaceInterface7Private18placeAboveCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.1.1+git20141128.0009
@@ -642,7 +692,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server20IdleTimeoutInterface11qt_metacastEPKc@Base 4:5.4.0
  _ZN8KWayland6Server20IdleTimeoutInterface16staticMetaObjectE@Base 4:5.4.0
  _ZN8KWayland6Server20IdleTimeoutInterface7Private11s_interfaceE@Base 4:5.4.0
- _ZN8KWayland6Server20IdleTimeoutInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.4.0
  _ZN8KWayland6Server20IdleTimeoutInterface7Private28simulateUserActivityCallbackEP9wl_clientP11wl_resource@Base 4:5.4.0
  _ZN8KWayland6Server20IdleTimeoutInterface7Private5setupEj@Base 4:5.4.0
  _ZN8KWayland6Server20IdleTimeoutInterface7PrivateC1EPNS0_13SeatInterfaceEPS1_PNS0_13IdleInterfaceEP11wl_resource@Base 4:5.4.0
@@ -773,12 +822,12 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21PlasmaWindowInterface7Private11s_interfaceE@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private13closeCallbackEP9wl_clientP11wl_resource@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private14createResourceEP11wl_resourcej@Base 4:5.4.0
+ _ZN8KWayland6Server21PlasmaWindowInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private16setStateCallbackEP9wl_clientP11wl_resourcejj@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private17setThemedIconNameERK7QString@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private17setVirtualDesktopEj@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private19requestMoveCallbackEP9wl_clientP11wl_resource@Base 4:5.22.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private21requestResizeCallbackEP9wl_clientP11wl_resource@Base 4:5.22.0
- _ZN8KWayland6Server21PlasmaWindowInterface7Private23destroyListenerCallbackEP11wl_listenerPv@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private25setVirtualDesktopCallbackEP9wl_clientP11wl_resourcej@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private28setMinimizedGeometryCallbackEP9wl_clientP11wl_resourceS6_jjjj@Base 4:5.5.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private30unsetMinimizedGeometryCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.5.0
@@ -930,6 +979,16 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server25OutputManagementInterfaceD0Ev@Base 4:5.5.0
  _ZN8KWayland6Server25OutputManagementInterfaceD1Ev@Base 4:5.5.0
  _ZN8KWayland6Server25OutputManagementInterfaceD2Ev@Base 4:5.5.0
+ _ZN8KWayland6Server25TextInputManagerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterface11qt_metacastEPKc@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterface16staticMetaObjectE@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterface7PrivateC1ENS0_25TextInputInterfaceVersionEPS1_PNS0_7DisplayEPK12wl_interfacej@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterface7PrivateC2ENS0_25TextInputInterfaceVersionEPS1_PNS0_7DisplayEPK12wl_interfacej@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterfaceC1EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterfaceC2EPNS1_7PrivateEP7QObject@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterfaceD0Ev@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterfaceD1Ev@Base 4:5.23.0
+ _ZN8KWayland6Server25TextInputManagerInterfaceD2Ev@Base 4:5.23.0
  _ZN8KWayland6Server26DataDeviceManagerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server26DataDeviceManagerInterface16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
@@ -981,7 +1040,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface3getEP11wl_resource@Base 4:5.5.0
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private11s_interfaceE@Base 4:5.4.0
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private11setPositionERK6QPoint@Base 4:5.4.0
- _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.4.0
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private15setRoleCallbackEP9wl_clientP11wl_resourcej@Base 4:5.4.0
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private16setPanelBehaviorE37org_kde_plasma_surface_panel_behavior@Base 4:5.4.0
  _ZN8KWayland6Server27PlasmaShellSurfaceInterface7Private17setOutputCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.4.0
@@ -1044,7 +1102,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server29ServerSideDecorationInterface16staticMetaObjectE@Base 4:5.6.2
  _ZN8KWayland6Server29ServerSideDecorationInterface3getEPNS0_16SurfaceInterfaceE@Base 4:5.6.2
  _ZN8KWayland6Server29ServerSideDecorationInterface7Private11s_interfaceE@Base 4:5.6.2
- _ZN8KWayland6Server29ServerSideDecorationInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.6.2
  _ZN8KWayland6Server29ServerSideDecorationInterface7Private19requestModeCallbackEP9wl_clientP11wl_resourcej@Base 4:5.6.2
  _ZN8KWayland6Server29ServerSideDecorationInterface7Private3getEPNS0_16SurfaceInterfaceE@Base 4:5.6.2
  _ZN8KWayland6Server29ServerSideDecorationInterface7Private5s_allE@Base 4:5.6.2
@@ -1061,6 +1118,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server29ServerSideDecorationInterfaceD2Ev@Base 4:5.6.2
  _ZN8KWayland6Server31PlasmaWindowManagementInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.4.0
  _ZN8KWayland6Server31PlasmaWindowManagementInterface11qt_metacastEPKc@Base 4:5.4.0
+ _ZN8KWayland6Server31PlasmaWindowManagementInterface11unmapWindowEPNS0_21PlasmaWindowInterfaceE@Base 4:5.23.0
  _ZN8KWayland6Server31PlasmaWindowManagementInterface12createWindowEP7QObject@Base 4:5.4.0
  _ZN8KWayland6Server31PlasmaWindowManagementInterface16staticMetaObjectE@Base 4:5.4.0
  _ZN8KWayland6Server31PlasmaWindowManagementInterface22setShowingDesktopStateENS1_19ShowingDesktopStateE@Base 4:5.4.0
@@ -1163,6 +1221,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server7Display19createSubCompositorEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display21createContrastManagerEP7QObject@Base 4:5.5.0
  _ZN8KWayland6Server7Display22createOutputManagementEP7QObject@Base 4:5.5.0
+ _ZN8KWayland6Server7Display22createTextInputManagerERKNS0_25TextInputInterfaceVersionEP7QObject@Base 4:5.23.0
  _ZN8KWayland6Server7Display23createDataDeviceManagerEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server7Display24createQtSurfaceExtensionEP7QObject@Base 4:5.4.0
  _ZN8KWayland6Server7Display28createPlasmaWindowManagementEP7QObject@Base 4:5.4.0
@@ -1191,6 +1250,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server8Resource6createEPNS0_16ClientConnectionEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource6globalEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7Private14s_allResourcesE@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server8Resource7Private25resourceDestroyedCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
  _ZN8KWayland6Server8Resource7Private6createEPNS0_16ClientConnectionEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7Private6unbindEP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7PrivateC1EPS1_PNS0_6GlobalEP11wl_resourcePK12wl_interfacePKv@Base 4:5.1.1+git20141128.0009
@@ -1226,6 +1286,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server13SeatInterface15focusedKeyboardEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface15isTouchSequenceEv@Base 4:5.2.2+git20150326.0109+15.04
  _ZNK8KWayland6Server13SeatInterface15lockedModifiersEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server13SeatInterface16focusedTextInputEv@Base 4:5.23.0
  _ZNK8KWayland6Server13SeatInterface16latchedModifiersEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface18depressedModifiersEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface19focusedTouchSurfaceEv@Base 4:5.2.2+git20150326.0109+15.04
@@ -1239,6 +1300,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server13SeatInterface22hasImplicitPointerGrabEj@Base 4:5.6.2
  _ZNK8KWayland6Server13SeatInterface22isPointerButtonPressedEN2Qt11MouseButtonE@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface22isPointerButtonPressedEj@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server13SeatInterface23focusedTextInputSurfaceEv@Base 4:5.23.0
  _ZNK8KWayland6Server13SeatInterface25dragSurfaceTransformationEv@Base 4:5.6.2
  _ZNK8KWayland6Server13SeatInterface27focusedTouchSurfacePositionEv@Base 4:5.2.2+git20150326.0109+15.04
  _ZNK8KWayland6Server13SeatInterface29focusedPointerSurfacePositionEv@Base 4:5.1.1+git20141128.0009
@@ -1249,6 +1311,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server13SeatInterface7Private15touchForSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.2.2+git20150326.0109+15.04
  _ZNK8KWayland6Server13SeatInterface7Private17pointerForSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface7Private18keyboardForSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server13SeatInterface7Private19textInputForSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.23.0
  _ZNK8KWayland6Server13SeatInterface7Private20dataDeviceForSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface8hasTouchEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface9timestampEv@Base 4:5.1.1+git20141128.0009
@@ -1350,6 +1413,18 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server18DataOfferInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server18DataOfferInterface6d_funcEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server18FakeInputInterface10metaObjectEv@Base 4:5.4.0
+ _ZNK8KWayland6Server18TextInputInterface10metaObjectEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface12contentHintsEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface14contentPurposeEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface15cursorRectangleEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface15surroundingTextEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface16interfaceVersionEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface17preferredLanguageEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface29surroundingTextCursorPositionEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface30surroundingTextSelectionAnchorEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface6d_funcEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface7surfaceEv@Base 4:5.23.0
+ _ZNK8KWayland6Server18TextInputInterface9isEnabledEv@Base 4:5.23.0
  _ZNK8KWayland6Server19CompositorInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server19DataDeviceInterface10dragSourceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server19DataDeviceInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
@@ -1415,6 +1490,9 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server22SubCompositorInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server24ContrastManagerInterface10metaObjectEv@Base 4:5.5.0
  _ZNK8KWayland6Server25OutputManagementInterface10metaObjectEv@Base 4:5.5.0
+ _ZNK8KWayland6Server25TextInputManagerInterface10metaObjectEv@Base 4:5.23.0
+ _ZNK8KWayland6Server25TextInputManagerInterface16interfaceVersionEv@Base 4:5.23.0
+ _ZNK8KWayland6Server25TextInputManagerInterface6d_funcEv@Base 4:5.23.0
  _ZNK8KWayland6Server26DataDeviceManagerInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server26QtExtendedSurfaceInterface10metaObjectEv@Base 4:5.4.0
  _ZNK8KWayland6Server26QtExtendedSurfaceInterface5shellEv@Base 4:5.4.0
@@ -1498,6 +1576,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTIN8KWayland6Server18DataOfferInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server18FakeInputInterface7PrivateE@Base 4:5.4.0
  _ZTIN8KWayland6Server18FakeInputInterfaceE@Base 4:5.4.0
+ _ZTIN8KWayland6Server18TextInputInterface7PrivateE@Base 4:5.23.0
+ _ZTIN8KWayland6Server18TextInputInterfaceE@Base 4:5.23.0
  _ZTIN8KWayland6Server19CompositorInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server19CompositorInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server19DataDeviceInterface7PrivateE@Base 4:5.1.1+git20141128.0009
@@ -1529,6 +1609,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTIN8KWayland6Server24ContrastManagerInterfaceE@Base 4:5.5.0
  _ZTIN8KWayland6Server25OutputManagementInterface7PrivateE@Base 4:5.5.0
  _ZTIN8KWayland6Server25OutputManagementInterfaceE@Base 4:5.5.0
+ _ZTIN8KWayland6Server25TextInputManagerInterface7PrivateE@Base 4:5.23.0
+ _ZTIN8KWayland6Server25TextInputManagerInterfaceE@Base 4:5.23.0
  _ZTIN8KWayland6Server26DataDeviceManagerInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server26DataDeviceManagerInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Server26QtExtendedSurfaceInterface7PrivateE@Base 4:5.4.0
@@ -1585,6 +1667,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTSN8KWayland6Server18DataOfferInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server18FakeInputInterface7PrivateE@Base 4:5.4.0
  _ZTSN8KWayland6Server18FakeInputInterfaceE@Base 4:5.4.0
+ _ZTSN8KWayland6Server18TextInputInterface7PrivateE@Base 4:5.23.0
+ _ZTSN8KWayland6Server18TextInputInterfaceE@Base 4:5.23.0
  _ZTSN8KWayland6Server19CompositorInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server19CompositorInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server19DataDeviceInterface7PrivateE@Base 4:5.1.1+git20141128.0009
@@ -1616,6 +1700,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTSN8KWayland6Server24ContrastManagerInterfaceE@Base 4:5.5.0
  _ZTSN8KWayland6Server25OutputManagementInterface7PrivateE@Base 4:5.5.0
  _ZTSN8KWayland6Server25OutputManagementInterfaceE@Base 4:5.5.0
+ _ZTSN8KWayland6Server25TextInputManagerInterface7PrivateE@Base 4:5.23.0
+ _ZTSN8KWayland6Server25TextInputManagerInterfaceE@Base 4:5.23.0
  _ZTSN8KWayland6Server26DataDeviceManagerInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server26DataDeviceManagerInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Server26QtExtendedSurfaceInterface7PrivateE@Base 4:5.4.0
@@ -1672,6 +1758,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTVN8KWayland6Server18DataOfferInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server18FakeInputInterface7PrivateE@Base 4:5.4.0
  _ZTVN8KWayland6Server18FakeInputInterfaceE@Base 4:5.4.0
+ _ZTVN8KWayland6Server18TextInputInterface7PrivateE@Base 4:5.23.0
+ _ZTVN8KWayland6Server18TextInputInterfaceE@Base 4:5.23.0
  _ZTVN8KWayland6Server19CompositorInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server19CompositorInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server19DataDeviceInterface7PrivateE@Base 4:5.1.1+git20141128.0009
@@ -1703,6 +1791,8 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZTVN8KWayland6Server24ContrastManagerInterfaceE@Base 4:5.5.0
  _ZTVN8KWayland6Server25OutputManagementInterface7PrivateE@Base 4:5.5.0
  _ZTVN8KWayland6Server25OutputManagementInterfaceE@Base 4:5.5.0
+ _ZTVN8KWayland6Server25TextInputManagerInterface7PrivateE@Base 4:5.23.0
+ _ZTVN8KWayland6Server25TextInputManagerInterfaceE@Base 4:5.23.0
  _ZTVN8KWayland6Server26DataDeviceManagerInterface7PrivateE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server26DataDeviceManagerInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Server26QtExtendedSurfaceInterface7PrivateE@Base 4:5.4.0
@@ -1754,3 +1844,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  org_kde_plasma_window_management_interface@Base 4:5.4.0
  qt_extended_surface_interface@Base 4:5.4.0
  qt_surface_extension_interface@Base 4:5.4.0
+ wl_text_input_interface@Base 4:5.23.0
+ wl_text_input_manager_interface@Base 4:5.23.0
+ zwp_text_input_manager_v2_interface@Base 4:5.23.0
+ zwp_text_input_v2_interface@Base 4:5.23.0
