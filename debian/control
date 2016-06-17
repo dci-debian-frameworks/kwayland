@@ -23,7 +23,8 @@ Architecture: any
 Depends: libkf5waylandclient5 (= ${binary:Version}),
          libkf5waylandserver5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
-         ${misc:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: development files for kwayland
  KWayland provides a Qt-style Client and Server library wrapper for
  the Wayland libraries.
