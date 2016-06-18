@@ -1,10 +1,6 @@
-kwayland (4:5.23.0-1~4.gbp2e667d) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @2e667d3de7c52d727f496a77413deb9e10a06ffe **
+kwayland (4:5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @8436463823d3f714538e6f503a7086b64f87319a **
-
   * Update build-deps and deps with the info from cmake
   * Update symbols files
 
@@ -12,7 +8,7 @@ kwayland (4:5.23.0-1~4.gbp2e667d) UNRELEASED; urgency=medium
   * Install kwayland testserver
   * Add shlibs depends for the org-kde-kf5-kwayland-testserver libexec
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 17 Jun 2016 18:48:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:23:08 +0200
 
 kwayland (4:5.22.0-1) unstable; urgency=medium
 
