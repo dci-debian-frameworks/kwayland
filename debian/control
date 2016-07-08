@@ -17,7 +17,7 @@ Homepage: https://projects.kde.org/projects/kde/workspace/kwayland
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kwayland.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwayland.git
 
-Package: kwayland-dev
+Package: libkf5wayland-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5waylandclient5 (= ${binary:Version}),
@@ -25,11 +25,21 @@ Depends: libkf5waylandclient5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
+Replaces: kwayland-dev (<< 4:5.23.0-2~)
+Breaks: kwayland-dev (<< 4:5.23.0-2~)
 Description: development files for kwayland
  KWayland provides a Qt-style Client and Server library wrapper for
  the Wayland libraries.
  .
  Contains development files for kwayland.
+
+Package: kwayland-dev
+Depends: libkf5wayland-dev, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: libkf5waylandclient5
 Architecture: any
