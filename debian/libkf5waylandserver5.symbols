@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.23.0 amd64
+# SymbolsHelper-Confirmed: 4:5.24.0 amd64
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13BlurInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface11qt_metacastEPKc@Base 4:5.5.0
@@ -42,6 +42,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13SeatInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface11setHasTouchEb@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server13SeatInterface12setSelectionEPNS0_19DataDeviceInterfaceE@Base 4:5.24.0
  _ZN8KWayland6Server13SeatInterface12setTimestampEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server13SeatInterface12touchCreatedEPNS0_14TouchInterfaceE@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server13SeatInterface13setDragTargetEPNS0_16SurfaceInterfaceERK10QMatrix4x4@Base 4:5.6.2
@@ -154,7 +155,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server14TouchInterface5frameEv@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterface6cancelEv@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterface7Private11s_interfaceE@Base 4:5.2.2+git20150326.0109+15.04
- _ZN8KWayland6Server14TouchInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterface7PrivateC1EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterface7PrivateC2EPNS0_13SeatInterfaceEP11wl_resourcePS1_@Base 4:5.2.2+git20150326.0109+15.04
  _ZN8KWayland6Server14TouchInterfaceC1EPNS0_13SeatInterfaceEP11wl_resource@Base 4:5.2.2+git20150326.0109+15.04
@@ -355,7 +355,6 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16PointerInterface17setFocusedSurfaceEPNS0_16SurfaceInterfaceEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface4axisEN2Qt11OrientationEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server16PointerInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7Private17setCursorCallbackEP9wl_clientP11wl_resourcejS6_ii@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterface7Private9sendEnterEPNS0_16SurfaceInterfaceERK7QPointFj@Base 4:5.22.0
  _ZN8KWayland6Server16PointerInterface7Private9sendLeaveEPNS0_16SurfaceInterfaceEj@Base 4:5.22.0
@@ -456,11 +455,9 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server17KeyboardInterface16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface17setFocusedSurfaceEPNS0_16SurfaceInterfaceEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface7Private10sendKeymapEij@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server17KeyboardInterface7Private10sendKeymapEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface7Private11s_interfaceE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface7Private13sendModifiersEjjjjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface7Private13sendModifiersEv@Base 4:5.1.1+git20141128.0009
- _ZN8KWayland6Server17KeyboardInterface7Private15releaseCallbackEP9wl_clientP11wl_resource@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server17KeyboardInterface7Private17focusChildSurfaceERK8QPointerINS0_16SurfaceInterfaceEEj@Base 4:5.22.0
  _ZN8KWayland6Server17KeyboardInterface7Private9sendEnterEPNS0_16SurfaceInterfaceEj@Base 4:5.22.0
  _ZN8KWayland6Server17KeyboardInterface7Private9sendLeaveEPNS0_16SurfaceInterfaceEj@Base 4:5.22.0
@@ -793,6 +790,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21PlasmaWindowInterface15resizeRequestedEv@Base 4:5.22.0
  _ZN8KWayland6Server21PlasmaWindowInterface15setMaximizeableEb@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface15setMinimizeableEb@Base 4:5.4.0
+ _ZN8KWayland6Server21PlasmaWindowInterface15setParentWindowEPS1_@Base 4:5.24.0
  _ZN8KWayland6Server21PlasmaWindowInterface15shadedRequestedEb@Base 4:5.22.0
  _ZN8KWayland6Server21PlasmaWindowInterface16movableRequestedEb@Base 4:5.22.0
  _ZN8KWayland6Server21PlasmaWindowInterface16setOnAllDesktopsEb@Base 4:5.4.0
@@ -823,6 +821,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server21PlasmaWindowInterface7Private13closeCallbackEP9wl_clientP11wl_resource@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private14createResourceEP11wl_resourcej@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.23.0
+ _ZN8KWayland6Server21PlasmaWindowInterface7Private15setParentWindowEPS1_@Base 4:5.24.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private16setStateCallbackEP9wl_clientP11wl_resourcejj@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private17setThemedIconNameERK7QString@Base 4:5.4.0
  _ZN8KWayland6Server21PlasmaWindowInterface7Private17setVirtualDesktopEj@Base 4:5.4.0
@@ -917,6 +916,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server22ShadowManagerInterface7Private12createShadowEP9wl_clientP11wl_resourcejS6_@Base 4:5.4.0
  _ZN8KWayland6Server22ShadowManagerInterface7Private13unsetCallbackEP9wl_clientP11wl_resourceS6_@Base 4:5.4.0
  _ZN8KWayland6Server22ShadowManagerInterface7Private14createCallbackEP9wl_clientP11wl_resourcejS6_@Base 4:5.4.0
+ _ZN8KWayland6Server22ShadowManagerInterface7Private15destroyCallbackEP9wl_clientP11wl_resource@Base 4:5.24.0
  _ZN8KWayland6Server22ShadowManagerInterface7Private4bindEP9wl_clientjj@Base 4:5.4.0
  _ZN8KWayland6Server22ShadowManagerInterface7Private6unbindEP11wl_resource@Base 4:5.4.0
  _ZN8KWayland6Server22ShadowManagerInterface7Private9s_versionE@Base 4:5.5.0
@@ -1258,6 +1258,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server8Resource7PrivateD0Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource7PrivateD2Ev@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server8Resource7unboundEv@Base 4:5.24.0
  _ZN8KWayland6Server8Resource8resourceEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8ResourceC1EPNS1_7PrivateEP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8ResourceC2EPNS1_7PrivateEP7QObject@Base 4:5.1.1+git20141128.0009
@@ -1314,6 +1315,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server13SeatInterface7Private19textInputForSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.23.0
  _ZNK8KWayland6Server13SeatInterface7Private20dataDeviceForSurfaceEPNS0_16SurfaceInterfaceE@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server13SeatInterface8hasTouchEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server13SeatInterface9selectionEv@Base 4:5.24.0
  _ZNK8KWayland6Server13SeatInterface9timestampEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server14ShellInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server14SlideInterface10metaObjectEv@Base 4:5.5.0
@@ -1470,6 +1472,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server21OutputDeviceInterface9transformEv@Base 4:5.5.0
  _ZNK8KWayland6Server21PlasmaWindowInterface10metaObjectEv@Base 4:5.4.0
  _ZNK8KWayland6Server21PlasmaWindowInterface19minimizedGeometriesEv@Base 4:5.5.0
+ _ZNK8KWayland6Server21PlasmaWindowInterface7Private17resourceForParentEPS1_P11wl_resource@Base 4:5.24.0
  _ZNK8KWayland6Server21ShellSurfaceInterface10isToplevelEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server21ShellSurfaceInterface10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server21ShellSurfaceInterface11isMaximizedEv@Base 4:5.1.1+git20141216.0026+15.04
