@@ -1,6 +1,6 @@
-kwayland (4:5.24.0-1~2.gbpda3dcb) UNRELEASED; urgency=medium
+kwayland (4:5.25.0-1~1.gbpa07d2a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @da3dcb44e558e3572d613c1339ee14e77e2eede4 **
+  ** SNAPSHOT build @a07d2a1ca20c686bd6214318c973ebc87ceebf62 **
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
@@ -10,8 +10,9 @@ kwayland (4:5.24.0-1~2.gbpda3dcb) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 16 Jul 2016 11:05:46 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 13:48:12 +0200
 
 kwayland (4:5.23.0-1) unstable; urgency=medium
 
