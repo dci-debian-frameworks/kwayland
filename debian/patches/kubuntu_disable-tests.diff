@@ -1,8 +1,8 @@
-Index: kwayland-5.3.2/autotests/client/CMakeLists.txt
-===================================================================
---- kwayland-5.3.2.orig/autotests/client/CMakeLists.txt
-+++ kwayland-5.3.2/autotests/client/CMakeLists.txt
-@@ -31,8 +31,6 @@ if(Wayland_VERSION VERSION_GREATER "1.4.
+diff --git a/autotests/client/CMakeLists.txt b/autotests/client/CMakeLists.txt
+index a52e297..fdc65b0 100644
+--- a/autotests/client/CMakeLists.txt
++++ b/autotests/client/CMakeLists.txt
+@@ -29,8 +29,6 @@ if(Wayland_VERSION VERSION_GREATER "1.4.0")
          )
      add_executable(testWaylandFullscreenShell ${testWaylandFullscreenShell_SRCS})
      target_link_libraries( testWaylandFullscreenShell Qt5::Test KF5::WaylandClient Wayland::Client)
@@ -11,12 +11,12 @@ Index: kwayland-5.3.2/autotests/client/CMakeLists.txt
  endif()
  
  ########################################################
-@@ -76,8 +74,6 @@ set( testWaylandSeat_SRCS
-     )
- add_executable(testWaylandSeat ${testWaylandSeat_SRCS})
- target_link_libraries( testWaylandSeat Qt5::Test Qt5::Gui KF5::WaylandClient KF5::WaylandServer Wayland::Client Wayland::Server)
--add_test(kwayland-testWaylandSeat testWaylandSeat)
--ecm_mark_as_test(testWaylandSeat)
+@@ -75,8 +73,6 @@ if (HAVE_LINUX_INPUT_H)
+         )
+     add_executable(testWaylandSeat ${testWaylandSeat_SRCS})
+     target_link_libraries( testWaylandSeat Qt5::Test Qt5::Gui KF5::WaylandClient KF5::WaylandServer Wayland::Client Wayland::Server)
+-    add_test(kwayland-testWaylandSeat testWaylandSeat)
+-    ecm_mark_as_test(testWaylandSeat)
+ endif()
  
  ########################################################
- # Test ShmPool
