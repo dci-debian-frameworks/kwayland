@@ -1,3 +1,11 @@
+kwayland (4:5.26.0-1~1.gbp285aa8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @285aa8136a0617239e2f161e8c13d29200afb252 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:49:12 +0200
+
 kwayland (4:5.25.0-1) unstable; urgency=medium
 
   [ Harald Sitter ]
