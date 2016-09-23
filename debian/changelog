@@ -4,6 +4,19 @@ kwayland (4:5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:34:10 +0000
 
+kwayland (4:5.25.0-1) unstable; urgency=medium
+
+  [ Harald Sitter ]
+  * Rename -dev package to align with the cmake package name for
+    greater discoverability and consistency across frameworks.
+    Add a transitional package to help with the name transition.
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:19:51 +0200
+
 kwayland (4:5.25.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,11 +29,35 @@ kwayland (4:5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:42:50 +0000
 
+kwayland (4:5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+
+  [ Maximiliano Curia ]
+  * Install kwayland testserver
+  * Add shlibs depends for the org-kde-kf5-kwayland-testserver libexec
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:23:08 +0200
+
 kwayland (4:5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:40:40 +0000
+
+kwayland (4:5.22.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Update Vcs uris
+
+  [ Automatic packaging ]
+  * Update watch file
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 May 2016 20:10:31 +0200
 
 kwayland (4:5.22.0-0neon) xenial; urgency=medium
 
@@ -34,6 +71,24 @@ kwayland (4:5.6.4-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Wed, 11 May 2016 09:42:28 +0000
 
+kwayland (4:5.6.3-1) experimental; urgency=medium
+
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (4:5.5.4-1).
+  * Update symbols files
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Update symbols files from buildds logs (4:5.5.4-1).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update testsuite
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 May 2016 20:22:53 +0200
+
 kwayland (4:5.6.3-0neon) xenial; urgency=medium
 
   * New release
@@ -45,6 +100,16 @@ kwayland (4:5.6.2-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Fri, 08 Apr 2016 11:44:29 +0000
+
+kwayland (4:5.5.4-1) experimental; urgency=medium
+
+  * New upstream release (5.5.0).
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:48:51 +0100
 
 kwayland (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
 
