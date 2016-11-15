@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.25.0 amd64
+# SymbolsHelper-Confirmed: 4:5.27.0 alpha amd64 arm64 armel armhf hppa i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64 x32
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -884,11 +884,13 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6Output11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output13setEventQueueEPNS0_10EventQueueE@Base 4:5.5.0
  _ZN8KWayland6Client6Output16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client6Output3getEP9wl_output@Base 4:5.27.0
  _ZN8KWayland6Client6Output5setupEP9wl_output@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output6outputEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private11setSubPixelENS1_8SubPixelE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private12doneCallbackEPvP9wl_output@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private12modeCallbackEPvP9wl_outputjiii@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client6Output7Private12s_allOutputsE@Base 4:5.27.0
  _ZN8KWayland6Client6Output7Private12setTransformENS1_9TransformE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private13scaleCallbackEPvP9wl_outputi@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private15setManufacturerERK7QString@Base 4:5.1.1+git20141128.0009
@@ -896,12 +898,15 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6Output7Private16geometryCallbackEPvP9wl_outputiiiiiPKcS7_i@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private16s_outputListenerE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private17setGlobalPositionERK6QPoint@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client6Output7Private3getEP9wl_output@Base 4:5.27.0
  _ZN8KWayland6Client6Output7Private5setupEP9wl_output@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private7addModeEjiii@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private8setModelERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7Private8setScaleEi@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7PrivateC1EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7PrivateC2EPS1_@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client6Output7PrivateD1Ev@Base 4:5.27.0
+ _ZN8KWayland6Client6Output7PrivateD2Ev@Base 4:5.27.0
  _ZN8KWayland6Client6Output7changedEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6Output7removedEv@Base 4:5.5.0
  _ZN8KWayland6Client6Output9modeAddedERKNS1_4ModeE@Base 4:5.1.1+git20141128.0009
@@ -1027,6 +1032,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7ShmPoolD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7ShmPoolD2Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface10fromWindowEP7QWindow@Base 4:5.4.0
+ _ZN8KWayland6Client7Surface10outputLeftEPNS0_6OutputE@Base 4:5.27.0
  (subst)_ZN8KWayland6Client7Surface11fromQtWinIdE{quintptr}@Base 4:5.5.0
  _ZN8KWayland6Client7Surface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
@@ -1035,6 +1041,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7Surface12attachBufferEP9wl_bufferRK6QPoint@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface12attachBufferEPNS0_6BufferERK6QPoint@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface13frameRenderedEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Surface13outputEnteredEPNS0_6OutputE@Base 4:5.27.0
  _ZN8KWayland6Client7Surface14setInputRegionEPKNS0_6RegionE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface15setOpaqueRegionEPKNS0_6RegionE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
@@ -1047,9 +1054,13 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client7Surface6damageERK7QRegion@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7Private10s_listenerE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7Private10s_surfacesE@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Surface7Private13enterCallbackEPvP10wl_surfaceP9wl_output@Base 4:5.27.0
  _ZN8KWayland6Client7Surface7Private13frameCallbackEPvP11wl_callbackj@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Surface7Private13leaveCallbackEPvP10wl_surfaceP9wl_output@Base 4:5.27.0
+ _ZN8KWayland6Client7Surface7Private17s_surfaceListenerE@Base 4:5.27.0
  _ZN8KWayland6Client7Surface7Private18setupFrameCallbackEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7Private19handleFrameCallbackEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client7Surface7Private5setupEP10wl_surface@Base 4:5.27.0
  _ZN8KWayland6Client7Surface7PrivateC1EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7PrivateC2EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Surface7destroyEv@Base 4:5.1.1+git20141128.0009
@@ -1536,6 +1547,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client7Surface4sizeEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client7Surface5scaleEv@Base 4:5.22.0
  _ZNK8KWayland6Client7Surface7isValidEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client7Surface7outputsEv@Base 4:5.27.0
  _ZNK8KWayland6Client7SurfacecvP10wl_surfaceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Contrast10metaObjectEv@Base 4:5.5.0
  _ZNK8KWayland6Client8Contrast7isValidEv@Base 4:5.5.0

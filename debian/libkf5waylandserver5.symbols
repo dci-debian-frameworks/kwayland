@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.25.0 amd64
+# SymbolsHelper-Confirmed: 4:5.27.0 alpha amd64 arm64 armel armhf hppa i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64 x32
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13BlurInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface11qt_metacastEPKc@Base 4:5.5.0
@@ -366,6 +366,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server16PointerInterfaceD0Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterfaceD1Ev@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16PointerInterfaceD2Ev@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server16SurfaceInterface10setOutputsERK7QVectorIPNS0_15OutputInterfaceEE@Base 4:5.27.0
  _ZN8KWayland6Server16SurfaceInterface11blurChangedEv@Base 4:5.5.0
  _ZN8KWayland6Server16SurfaceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server16SurfaceInterface11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
@@ -1399,6 +1400,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server15OutputInterface12manufacturerEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15OutputInterface12physicalSizeEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15OutputInterface14globalPositionEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Server15OutputInterface15clientResourcesEPNS0_16ClientConnectionE@Base 4:5.27.0
  _ZNK8KWayland6Server15OutputInterface15isDpmsSupportedEv@Base 4:5.5.0
  _ZNK8KWayland6Server15OutputInterface5modelEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server15OutputInterface5modesEv@Base 4:5.1.1+git20141128.0009
@@ -1449,6 +1451,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZNK8KWayland6Server16SurfaceInterface6offsetEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface6opaqueEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Server16SurfaceInterface6shadowEv@Base 4:5.4.0
+ _ZNK8KWayland6Server16SurfaceInterface7outputsEv@Base 4:5.27.0
  _ZNK8KWayland6Server16SurfaceInterface8contrastEv@Base 4:5.5.0
  _ZNK8KWayland6Server16SurfaceInterface8isMappedEv@Base 4:5.22.0
  _ZNK8KWayland6Server16SurfaceInterface9transformEv@Base 4:5.1.1+git20141128.0009
