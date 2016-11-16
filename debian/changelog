@@ -1,10 +1,11 @@
-kwayland (4:5.28.0-1~2.gbp51b380) UNRELEASED; urgency=medium
+kwayland (4:5.28.0-1~3.gbp765f97) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @51b38001700325ad0d15834d74a26607d7d16907 **
+  ** SNAPSHOT build @765f972d4a7f55c4ded1bedfdb2d94ed94c7d356 **
 
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (4:5.27.0-1).
   * Update symbols files
+  * Update symbols files.
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:38:52 +0100
 
