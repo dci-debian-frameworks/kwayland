@@ -3,14 +3,14 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12),
+Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.28.0~),
+               extra-cmake-modules (>= 5.35.0~),
                libegl1-mesa-dev,
                libwayland-dev (>= 1.7~),
                pkg-config,
                pkg-kde-tools (>= 0.15.16),
-               qtbase5-dev (>= 5.5.0~),
+               qtbase5-dev (>= 5.6.0~),
                qtbase5-private-dev (>= 5.4.0~)
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/kwayland
@@ -22,7 +22,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5waylandclient5 (= ${binary:Version}),
          libkf5waylandserver5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.5.0~),
+         qtbase5-dev (>= 5.6.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: kwayland-dev (<< 4:5.23.0-2~)
