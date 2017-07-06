@@ -1,8 +1,20 @@
-kwayland (4:5.35.0-1~) UNRELEASED; urgency=medium
+kwayland (4:5.35.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+  * Add qtwayland5 test dependency
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:37:22 +0200
+  [ Raymond Wooninck ]
+  * Add signing key
+  * also include signing-key
+
+  [ Harald Sitter ]
+  * bring back xvfb-run wrapping
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jul 2017 14:11:12 +0200
 
 kwayland (4:5.28.0-1) unstable; urgency=medium
 
