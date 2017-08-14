@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.35.0 amd64
+# SymbolsHelper-Confirmed: 4:5.37.0 amd64
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -231,6 +231,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client12OutputDevice7PrivateC1EPS1_@Base 4:5.5.0
  _ZN8KWayland6Client12OutputDevice7PrivateC2EPS1_@Base 4:5.5.0
  _ZN8KWayland6Client12OutputDevice7changedEv@Base 4:5.5.0
+ _ZN8KWayland6Client12OutputDevice7destroyEv@Base 4:5.37.0
  _ZN8KWayland6Client12OutputDevice7removedEv@Base 4:5.5.0
  _ZN8KWayland6Client12OutputDevice9modeAddedERKNS1_4ModeE@Base 4:5.5.0
  _ZN8KWayland6Client12OutputDeviceC1EP7QObject@Base 4:5.5.0
@@ -577,6 +578,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client15XdgShellSurfaceD2Ev@Base 4:5.25.0
  _ZN8KWayland6Client15XdgShellSurfacecvP11xdg_surfaceEv@Base 4:5.25.0
  _ZN8KWayland6Client16ConnectionThread10eventsReadEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client16ConnectionThread11connectionsEv@Base 4:5.37.0
  _ZN8KWayland6Client16ConnectionThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread11setSocketFdEi@Base 4:5.1.1+git20141128.0009
@@ -589,9 +591,11 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client16ConnectionThread16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread5flushEv@Base 4:5.2.2+git20150407.0736
  _ZN8KWayland6Client16ConnectionThread6failedEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client16ConnectionThread7Private11connectionsE@Base 4:5.37.0
  _ZN8KWayland6Client16ConnectionThread7Private16doInitConnectionEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7Private19setupSocketNotifierEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7Private22setupSocketFileWatcherEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client16ConnectionThread7Private5mutexE@Base 4:5.37.0
  _ZN8KWayland6Client16ConnectionThread7PrivateC1EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7PrivateC2EPS1_@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client16ConnectionThread7PrivateD1Ev@Base 4:5.1.1+git20141128.0009
@@ -1086,6 +1090,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6Output7PrivateD1Ev@Base 4:5.27.0
  _ZN8KWayland6Client6Output7PrivateD2Ev@Base 4:5.27.0
  _ZN8KWayland6Client6Output7changedEv@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client6Output7destroyEv@Base 4:5.37.0
  _ZN8KWayland6Client6Output7removedEv@Base 4:5.5.0
  _ZN8KWayland6Client6Output9modeAddedERKNS1_4ModeE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client6OutputC1EP7QObject@Base 4:5.1.1+git20141128.0009
@@ -1338,6 +1343,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry17createBlurManagerEjjP7QObject@Base 4:5.5.0
  _ZN8KWayland6Client8Registry17createDpmsManagerEjjP7QObject@Base 4:5.5.0
  _ZN8KWayland6Client8Registry17createPlasmaShellEjjP7QObject@Base 4:5.4.0
+ _ZN8KWayland6Client8Registry17registryDestroyedEv@Base 4:5.37.0
  _ZN8KWayland6Client8Registry18createOutputDeviceEjjP7QObject@Base 4:5.5.0
  _ZN8KWayland6Client8Registry18createSlideManagerEjjP7QObject@Base 4:5.5.0
  _ZN8KWayland6Client8Registry18fakeInputAnnouncedEjj@Base 4:5.4.0

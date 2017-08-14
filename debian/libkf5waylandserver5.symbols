@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.35.0 amd64
+# SymbolsHelper-Confirmed: 4:5.37.0 amd64
 libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server13BlurInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.5.0
  _ZN8KWayland6Server13BlurInterface11qt_metacastEPKc@Base 4:5.5.0
@@ -1401,6 +1401,7 @@ libKF5WaylandServer.so.5 libkf5waylandserver5 #MINVER#
  _ZN8KWayland6Server7DisplaycvP10wl_displayEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Server8Resource16aboutToBeUnboundEv@Base 4:5.37.0
  _ZN8KWayland6Server8Resource16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource6clientEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Server8Resource6createEPNS0_16ClientConnectionEjj@Base 4:5.1.1+git20141128.0009
