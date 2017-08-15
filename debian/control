@@ -5,33 +5,21 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                libegl1-mesa-dev,
+               libqt5sql5-sqlite,
                libwayland-dev (>= 1.7~),
                pkg-config,
                pkg-kde-tools (>= 0.15.16),
                qtbase5-dev (>= 5.7.0~),
-               qtbase5-private-dev (>= 5.4.0~)
+               qtbase5-private-dev (>= 5.4.0~),
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/kwayland
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kwayland.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwayland.git
-
-Package: libkf5wayland-dev
-Section: libdevel
-Architecture: any
-Depends: libkf5waylandclient5 (= ${binary:Version}),
-         libkf5waylandserver5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Replaces: kwayland-dev (<< 4:5.23.0-2~)
-Breaks: kwayland-dev (<< 4:5.23.0-2~)
-Description: development files for kwayland
- KWayland provides a Qt-style Client and Server library wrapper for
- the Wayland libraries.
- .
- Contains development files for kwayland.
 
 Package: kwayland-dev
 Depends: libkf5wayland-dev, ${misc:Depends}
@@ -40,6 +28,33 @@ Priority: extra
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
+
+Package: libkf5wayland-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5waylandclient5 (= ${binary:Version}),
+         libkf5waylandserver5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.7.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Replaces: kwayland-dev (<< 4:5.23.0-2~)
+Breaks: kwayland-dev (<< 4:5.23.0-2~)
+Recommends: libkf5wayland-doc (= ${source:Version})
+Description: development files for kwayland
+ KWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+ .
+ Contains development files for kwayland.
+
+Package: libkf5wayland-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Qt library wrapper for Wayland libraries (documentation)
+ KWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+ .
+ This package contains the qch documentation files.
 
 Package: libkf5waylandclient5
 Architecture: any
