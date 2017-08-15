@@ -24,7 +24,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwayland.git
 Package: kwayland-dev
 Depends: libkf5wayland-dev, ${misc:Depends}
 Architecture: all
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
