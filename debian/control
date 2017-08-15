@@ -55,6 +55,7 @@ Description: Qt library wrapper for Wayland libraries (documentation)
  the Wayland libraries.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5waylandclient5
 Architecture: any
