@@ -2,7 +2,7 @@ kwayland (4:5.41.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.41.0).
 
- -- Maximiliano Curia <maxy@debian.org> Tue, 12 Dec 2017 16:33:24 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 16:33:24 -0300
 
 kwayland (4:5.41.0-0neon) xenial; urgency=medium
 
