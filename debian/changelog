@@ -1,8 +1,11 @@
-kwayland (4:5.41.0-1~) UNRELEASED; urgency=medium
+kwayland (4:5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 16:33:24 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:43:12 -0300
 
 kwayland (4:5.41.0-0neon) xenial; urgency=medium
 
