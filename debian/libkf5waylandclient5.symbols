@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.41.0 amd64
+# SymbolsHelper-Confirmed: 4:5.42.0 amd64
 libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10Compositor10eventQueueEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10Compositor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -47,6 +47,10 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client10DataSource13targetAcceptsERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource17sendDataRequestedERK7QStringi@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client10DataSource19dragAndDropFinishedEv@Base 4:5.42.0
+ _ZN8KWayland6Client10DataSource20dragAndDropPerformedEv@Base 4:5.42.0
+ _ZN8KWayland6Client10DataSource21setDragAndDropActionsE6QFlagsINS0_17DataDeviceManager9DnDActionEE@Base 4:5.42.0
+ _ZN8KWayland6Client10DataSource32selectedDragAndDropActionChangedEv@Base 4:5.42.0
  _ZN8KWayland6Client10DataSource5offerERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource5offerERK9QMimeType@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client10DataSource5setupEP14wl_data_source@Base 4:5.1.1+git20141128.0009
@@ -431,6 +435,23 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client13XdgShellPopupcvP13zxdg_popup_v6Ev@Base 4:5.41.0
  _ZN8KWayland6Client13XdgShellPopupcvP15zxdg_surface_v6Ev@Base 4:5.41.0
  _ZN8KWayland6Client13XdgShellPopupcvP9xdg_popupEv@Base 4:5.25.0
+ _ZN8KWayland6Client14AppMenuManager10eventQueueEv@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager11qt_metacastEPKc@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager13setEventQueueEPNS0_10EventQueueE@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager16staticMetaObjectE@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager5setupEP28org_kde_kwin_appmenu_manager@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager6createEPNS0_7SurfaceEP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager7Private5setupEP28org_kde_kwin_appmenu_manager@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager7destroyEv@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager7releaseEv@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManager7removedEv@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManagerC1EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManagerC2EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManagerD0Ev@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManagerD1Ev@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManagerD2Ev@Base 4:5.42.0
+ _ZN8KWayland6Client14AppMenuManagercvP28org_kde_kwin_appmenu_managerEv@Base 4:5.42.0
  _ZN8KWayland6Client15ConfinedPointer10unconfinedEv@Base 4:5.35.0
  _ZN8KWayland6Client15ConfinedPointer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.35.0
  _ZN8KWayland6Client15ConfinedPointer11qt_metacastEPKc@Base 4:5.35.0
@@ -817,6 +838,39 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client27ServerSideDecorationManagerD1Ev@Base 4:5.6.2
  _ZN8KWayland6Client27ServerSideDecorationManagerD2Ev@Base 4:5.6.2
  _ZN8KWayland6Client27ServerSideDecorationManagercvP38org_kde_kwin_server_decoration_managerEv@Base 4:5.6.2
+ _ZN8KWayland6Client27ServerSideDecorationPalette10setPaletteERK7QString@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette11qt_metacastEPKc@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette16staticMetaObjectE@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette5setupEP38org_kde_kwin_server_decoration_palette@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette7Private5setupEP38org_kde_kwin_server_decoration_palette@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette7PrivateC1EPS1_@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette7PrivateC2EPS1_@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette7destroyEv@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalette7releaseEv@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPaletteC1EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPaletteC2EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPaletteD0Ev@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPaletteD1Ev@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPaletteD2Ev@Base 4:5.42.0
+ _ZN8KWayland6Client27ServerSideDecorationPalettecvP38org_kde_kwin_server_decoration_paletteEv@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager10eventQueueEv@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager11qt_metacastEPKc@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager13setEventQueueEPNS0_10EventQueueE@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager16staticMetaObjectE@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager5setupEP46org_kde_kwin_server_decoration_palette_manager@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager6createEPNS0_7SurfaceEP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager7Private5setupEP46org_kde_kwin_server_decoration_palette_manager@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager7destroyEv@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager7releaseEv@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManager7removedEv@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManagerC1EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManagerC2EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManagerD0Ev@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManagerD1Ev@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManagerD2Ev@Base 4:5.42.0
+ _ZN8KWayland6Client34ServerSideDecorationPaletteManagercvP46org_kde_kwin_server_decoration_palette_managerEv@Base 4:5.42.0
  _ZN8KWayland6Client4Blur11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.5.0
  _ZN8KWayland6Client4Blur11qt_metacastEPKc@Base 4:5.5.0
  _ZN8KWayland6Client4Blur16staticMetaObjectE@Base 4:5.5.0
@@ -1021,6 +1075,22 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client6ShadowD1Ev@Base 4:5.4.0
  _ZN8KWayland6Client6ShadowD2Ev@Base 4:5.4.0
  _ZN8KWayland6Client6ShadowcvP19org_kde_kwin_shadowEv@Base 4:5.4.0
+ _ZN8KWayland6Client7AppMenu10setAddressERK7QStringS4_@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu11qt_metacastEPKc@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu16staticMetaObjectE@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu5setupEP20org_kde_kwin_appmenu@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu7Private5setupEP20org_kde_kwin_appmenu@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu7PrivateC1EPS1_@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu7PrivateC2EPS1_@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu7destroyEv@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenu7releaseEv@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenuC1EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenuC2EP7QObject@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenuD0Ev@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenuD1Ev@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenuD2Ev@Base 4:5.42.0
+ _ZN8KWayland6Client7AppMenucvP20org_kde_kwin_appmenuEv@Base 4:5.42.0
  _ZN8KWayland6Client7Pointer10hideCursorEv@Base 4:5.2.1+git20150228.0043+15.04
  _ZN8KWayland6Client7Pointer11axisChangedEjNS1_4AxisEd@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client7Pointer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.1+git20141128.0009
@@ -1150,6 +1220,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry13seatAnnouncedEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry13setEventQueueEPNS0_10EventQueueE@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry13shadowRemovedEj@Base 4:5.4.0
+ _ZN8KWayland6Client8Registry14appMenuRemovedEj@Base 4:5.42.0
  _ZN8KWayland6Client8Registry14createXdgShellEjjP7QObject@Base 4:5.25.0
  _ZN8KWayland6Client8Registry14shellAnnouncedEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry14slideAnnouncedEjj@Base 4:5.5.0
@@ -1157,6 +1228,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry15createFakeInputEjjP7QObject@Base 4:5.4.0
  _ZN8KWayland6Client8Registry15outputAnnouncedEjj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry15shadowAnnouncedEjj@Base 4:5.4.0
+ _ZN8KWayland6Client8Registry16appMenuAnnouncedEjj@Base 4:5.42.0
  _ZN8KWayland6Client8Registry16createCompositorEjjP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry16fakeInputRemovedEj@Base 4:5.4.0
  _ZN8KWayland6Client8Registry16interfaceRemovedEj@Base 4:5.1.1+git20141128.0009
@@ -1179,6 +1251,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry19createSubCompositorEjjP7QObject@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry19interfacesAnnouncedEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry19outputDeviceRemovedEj@Base 4:5.5.0
+ _ZN8KWayland6Client8Registry20createAppMenuManagerEjjP7QObject@Base 4:5.42.0
  _ZN8KWayland6Client8Registry20plasmaShellAnnouncedEjj@Base 4:5.4.0
  _ZN8KWayland6Client8Registry20subCompositorRemovedEj@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry21createContrastManagerEjjP7QObject@Base 4:5.5.0
@@ -1223,7 +1296,10 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client8Registry37idleInhibitManagerUnstableV1AnnouncedEjj@Base 4:5.41.0
  _ZN8KWayland6Client8Registry37pointerConstraintsUnstableV1AnnouncedEjj@Base 4:5.35.0
  _ZN8KWayland6Client8Registry39relativePointerManagerUnstableV1RemovedEj@Base 4:5.28.0
+ _ZN8KWayland6Client8Registry40createServerSideDecorationPaletteManagerEjjP7QObject@Base 4:5.42.0
  _ZN8KWayland6Client8Registry41relativePointerManagerUnstableV1AnnouncedEjj@Base 4:5.28.0
+ _ZN8KWayland6Client8Registry41serverSideDecorationPaletteManagerRemovedEj@Base 4:5.42.0
+ _ZN8KWayland6Client8Registry43serverSideDecorationPaletteManagerAnnouncedEjj@Base 4:5.42.0
  _ZN8KWayland6Client8Registry5setupEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry6createEP10wl_display@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client8Registry6createEPNS0_16ConnectionThreadE@Base 4:5.1.1+git20141128.0009
@@ -1261,6 +1337,10 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZN8KWayland6Client9DataOffer11qt_metacastEPKc@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer15mimeTypeOfferedERK7QString@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer16staticMetaObjectE@Base 4:5.1.1+git20141128.0009
+ _ZN8KWayland6Client9DataOffer19dragAndDropFinishedEv@Base 4:5.42.0
+ _ZN8KWayland6Client9DataOffer21setDragAndDropActionsE6QFlagsINS0_17DataDeviceManager9DnDActionEES4_@Base 4:5.42.0
+ _ZN8KWayland6Client9DataOffer31sourceDragAndDropActionsChangedEv@Base 4:5.42.0
+ _ZN8KWayland6Client9DataOffer32selectedDragAndDropActionChangedEv@Base 4:5.42.0
  _ZN8KWayland6Client9DataOffer7destroyEv@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer7receiveERK7QStringi@Base 4:5.1.1+git20141128.0009
  _ZN8KWayland6Client9DataOffer7receiveERK9QMimeTypei@Base 4:5.1.1+git20141128.0009
@@ -1336,6 +1416,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client10DataDevice9dragOfferEv@Base 4:5.22.0
  _ZNK8KWayland6Client10DataDevicecvP14wl_data_deviceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataSource10metaObjectEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client10DataSource25selectedDragAndDropActionEv@Base 4:5.42.0
  _ZNK8KWayland6Client10DataSource7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10DataSourcecvP14wl_data_sourceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client10EventQueue10metaObjectEv@Base 4:5.1.1+git20141128.0009
@@ -1460,6 +1541,9 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client13XdgShellPopupcvP13zxdg_popup_v6Ev@Base 4:5.41.0
  _ZNK8KWayland6Client13XdgShellPopupcvP15zxdg_surface_v6Ev@Base 4:5.41.0
  _ZNK8KWayland6Client13XdgShellPopupcvP9xdg_popupEv@Base 4:5.25.0
+ _ZNK8KWayland6Client14AppMenuManager10metaObjectEv@Base 4:5.42.0
+ _ZNK8KWayland6Client14AppMenuManager7isValidEv@Base 4:5.42.0
+ _ZNK8KWayland6Client14AppMenuManagercvP28org_kde_kwin_appmenu_managerEv@Base 4:5.42.0
  _ZNK8KWayland6Client15ConfinedPointer10metaObjectEv@Base 4:5.35.0
  _ZNK8KWayland6Client15ConfinedPointer7isValidEv@Base 4:5.35.0
  _ZNK8KWayland6Client15ConfinedPointercvP23zwp_confined_pointer_v1Ev@Base 4:5.35.0
@@ -1542,6 +1626,12 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client27ServerSideDecorationManager10metaObjectEv@Base 4:5.6.2
  _ZNK8KWayland6Client27ServerSideDecorationManager7isValidEv@Base 4:5.6.2
  _ZNK8KWayland6Client27ServerSideDecorationManagercvP38org_kde_kwin_server_decoration_managerEv@Base 4:5.6.2
+ _ZNK8KWayland6Client27ServerSideDecorationPalette10metaObjectEv@Base 4:5.42.0
+ _ZNK8KWayland6Client27ServerSideDecorationPalette7isValidEv@Base 4:5.42.0
+ _ZNK8KWayland6Client27ServerSideDecorationPalettecvP38org_kde_kwin_server_decoration_paletteEv@Base 4:5.42.0
+ _ZNK8KWayland6Client34ServerSideDecorationPaletteManager10metaObjectEv@Base 4:5.42.0
+ _ZNK8KWayland6Client34ServerSideDecorationPaletteManager7isValidEv@Base 4:5.42.0
+ _ZNK8KWayland6Client34ServerSideDecorationPaletteManagercvP46org_kde_kwin_server_decoration_palette_managerEv@Base 4:5.42.0
  _ZNK8KWayland6Client4Blur10metaObjectEv@Base 4:5.5.0
  _ZNK8KWayland6Client4Blur7isValidEv@Base 4:5.5.0
  _ZNK8KWayland6Client4BlurcvP17org_kde_kwin_blurEv@Base 4:5.5.0
@@ -1601,6 +1691,9 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client6Shadow10metaObjectEv@Base 4:5.4.0
  _ZNK8KWayland6Client6Shadow7isValidEv@Base 4:5.4.0
  _ZNK8KWayland6Client6ShadowcvP19org_kde_kwin_shadowEv@Base 4:5.4.0
+ _ZNK8KWayland6Client7AppMenu10metaObjectEv@Base 4:5.42.0
+ _ZNK8KWayland6Client7AppMenu7isValidEv@Base 4:5.42.0
+ _ZNK8KWayland6Client7AppMenucvP20org_kde_kwin_appmenuEv@Base 4:5.42.0
  _ZNK8KWayland6Client7Pointer10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client7Pointer14enteredSurfaceEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client7Pointer7isValidEv@Base 4:5.1.1+git20141128.0009
@@ -1638,6 +1731,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client8Registry16bindSlideManagerEjj@Base 4:5.5.0
  _ZNK8KWayland6Client8Registry17bindShadowManagerEjj@Base 4:5.4.0
  _ZNK8KWayland6Client8Registry17bindSubCompositorEjj@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client8Registry18bindAppMenuManagerEjj@Base 4:5.42.0
  _ZNK8KWayland6Client8Registry19bindContrastManagerEjj@Base 4:5.5.0
  _ZNK8KWayland6Client8Registry19bindFullscreenShellEjj@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Registry20bindOutputManagementEjj@Base 4:5.5.0
@@ -1654,6 +1748,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client8Registry32bindIdleInhibitManagerUnstableV1Ejj@Base 4:5.41.0
  _ZNK8KWayland6Client8Registry32bindPointerConstraintsUnstableV1Ejj@Base 4:5.35.0
  _ZNK8KWayland6Client8Registry36bindRelativePointerManagerUnstableV1Ejj@Base 4:5.28.0
+ _ZNK8KWayland6Client8Registry38bindServerSideDecorationPaletteManagerEjj@Base 4:5.42.0
  _ZNK8KWayland6Client8Registry7bindShmEjj@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Registry7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client8Registry8bindIdleEjj@Base 4:5.4.0
@@ -1667,6 +1762,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZNK8KWayland6Client8XdgShellcvP9xdg_shellEv@Base 4:5.25.0
  _ZNK8KWayland6Client9DataOffer10metaObjectEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client9DataOffer16offeredMimeTypesEv@Base 4:5.1.1+git20141128.0009
+ _ZNK8KWayland6Client9DataOffer24sourceDragAndDropActionsEv@Base 4:5.42.0
+ _ZNK8KWayland6Client9DataOffer25selectedDragAndDropActionEv@Base 4:5.42.0
  _ZNK8KWayland6Client9DataOffer7isValidEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client9DataOffercvP13wl_data_offerEv@Base 4:5.1.1+git20141128.0009
  _ZNK8KWayland6Client9FakeInput10metaObjectEv@Base 4:5.4.0
@@ -1709,6 +1806,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client13ShadowManagerE@Base 4:5.4.0
  _ZTIN8KWayland6Client13SubCompositorE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client13XdgShellPopupE@Base 4:5.25.0
+ _ZTIN8KWayland6Client14AppMenuManagerE@Base 4:5.42.0
  _ZTIN8KWayland6Client15ConfinedPointerE@Base 4:5.35.0
  _ZTIN8KWayland6Client15ContrastManagerE@Base 4:5.5.0
  _ZTIN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
@@ -1730,6 +1828,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client22PlasmaWindowManagementE@Base 4:5.4.0
  _ZTIN8KWayland6Client22RelativePointerManagerE@Base 4:5.28.0
  _ZTIN8KWayland6Client27ServerSideDecorationManagerE@Base 4:5.6.2
+ _ZTIN8KWayland6Client27ServerSideDecorationPaletteE@Base 4:5.42.0
+ _ZTIN8KWayland6Client34ServerSideDecorationPaletteManagerE@Base 4:5.42.0
  _ZTIN8KWayland6Client4BlurE@Base 4:5.5.0
  _ZTIN8KWayland6Client4DpmsE@Base 4:5.5.0
  _ZTIN8KWayland6Client4IdleE@Base 4:5.4.0
@@ -1740,6 +1840,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTIN8KWayland6Client6OutputE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client6RegionE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client6ShadowE@Base 4:5.4.0
+ _ZTIN8KWayland6Client7AppMenuE@Base 4:5.42.0
  _ZTIN8KWayland6Client7PointerE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client7ShmPoolE@Base 4:5.1.1+git20141128.0009
  _ZTIN8KWayland6Client7SurfaceE@Base 4:5.1.1+git20141128.0009
@@ -1773,6 +1874,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client13ShadowManagerE@Base 4:5.4.0
  _ZTSN8KWayland6Client13SubCompositorE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client13XdgShellPopupE@Base 4:5.25.0
+ _ZTSN8KWayland6Client14AppMenuManagerE@Base 4:5.42.0
  _ZTSN8KWayland6Client15ConfinedPointerE@Base 4:5.35.0
  _ZTSN8KWayland6Client15ContrastManagerE@Base 4:5.5.0
  _ZTSN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
@@ -1794,6 +1896,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client22PlasmaWindowManagementE@Base 4:5.4.0
  _ZTSN8KWayland6Client22RelativePointerManagerE@Base 4:5.28.0
  _ZTSN8KWayland6Client27ServerSideDecorationManagerE@Base 4:5.6.2
+ _ZTSN8KWayland6Client27ServerSideDecorationPaletteE@Base 4:5.42.0
+ _ZTSN8KWayland6Client34ServerSideDecorationPaletteManagerE@Base 4:5.42.0
  _ZTSN8KWayland6Client4BlurE@Base 4:5.5.0
  _ZTSN8KWayland6Client4DpmsE@Base 4:5.5.0
  _ZTSN8KWayland6Client4IdleE@Base 4:5.4.0
@@ -1804,6 +1908,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTSN8KWayland6Client6OutputE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client6RegionE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client6ShadowE@Base 4:5.4.0
+ _ZTSN8KWayland6Client7AppMenuE@Base 4:5.42.0
  _ZTSN8KWayland6Client7PointerE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client7ShmPoolE@Base 4:5.1.1+git20141128.0009
  _ZTSN8KWayland6Client7SurfaceE@Base 4:5.1.1+git20141128.0009
@@ -1837,6 +1942,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client13ShadowManagerE@Base 4:5.4.0
  _ZTVN8KWayland6Client13SubCompositorE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client13XdgShellPopupE@Base 4:5.25.0
+ _ZTVN8KWayland6Client14AppMenuManagerE@Base 4:5.42.0
  _ZTVN8KWayland6Client15ConfinedPointerE@Base 4:5.35.0
  _ZTVN8KWayland6Client15ContrastManagerE@Base 4:5.5.0
  _ZTVN8KWayland6Client15FullscreenShellE@Base 4:5.1.1+git20141128.0009
@@ -1858,6 +1964,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client22PlasmaWindowManagementE@Base 4:5.4.0
  _ZTVN8KWayland6Client22RelativePointerManagerE@Base 4:5.28.0
  _ZTVN8KWayland6Client27ServerSideDecorationManagerE@Base 4:5.6.2
+ _ZTVN8KWayland6Client27ServerSideDecorationPaletteE@Base 4:5.42.0
+ _ZTVN8KWayland6Client34ServerSideDecorationPaletteManagerE@Base 4:5.42.0
  _ZTVN8KWayland6Client4BlurE@Base 4:5.5.0
  _ZTVN8KWayland6Client4DpmsE@Base 4:5.5.0
  _ZTVN8KWayland6Client4IdleE@Base 4:5.4.0
@@ -1868,6 +1976,7 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client6OutputE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client6RegionE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client6ShadowE@Base 4:5.4.0
+ _ZTVN8KWayland6Client7AppMenuE@Base 4:5.42.0
  _ZTVN8KWayland6Client7PointerE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client7ShmPoolE@Base 4:5.1.1+git20141128.0009
  _ZTVN8KWayland6Client7SurfaceE@Base 4:5.1.1+git20141128.0009
@@ -1880,6 +1989,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  _ZTVN8KWayland6Client9TextInputE@Base 4:5.23.0
  _wl_fullscreen_shell_interface@Base 4:5.1.1+git20141128.0009
  _wl_fullscreen_shell_mode_feedback_interface@Base 4:5.1.1+git20141128.0009
+ org_kde_kwin_appmenu_interface@Base 4:5.42.0
+ org_kde_kwin_appmenu_manager_interface@Base 4:5.42.0
  org_kde_kwin_blur_interface@Base 4:5.5.0
  org_kde_kwin_blur_manager_interface@Base 4:5.5.0
  org_kde_kwin_contrast_interface@Base 4:5.5.0
@@ -1894,6 +2005,8 @@ libKF5WaylandClient.so.5 libkf5waylandclient5 #MINVER#
  org_kde_kwin_outputmanagement_interface@Base 4:5.5.0
  org_kde_kwin_server_decoration_interface@Base 4:5.6.2
  org_kde_kwin_server_decoration_manager_interface@Base 4:5.6.2
+ org_kde_kwin_server_decoration_palette_interface@Base 4:5.42.0
+ org_kde_kwin_server_decoration_palette_manager_interface@Base 4:5.42.0
  org_kde_kwin_shadow_interface@Base 4:5.4.0
  org_kde_kwin_shadow_manager_interface@Base 4:5.4.0
  org_kde_kwin_slide_interface@Base 4:5.5.0
