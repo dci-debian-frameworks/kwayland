@@ -36,7 +36,7 @@ Description: development files for kwayland
 Package: kwayland-dev
 Depends: libkf5wayland-dev, ${misc:Depends}
 Architecture: all
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
